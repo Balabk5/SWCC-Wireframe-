@@ -1,0 +1,370 @@
+{
+    "hr": [
+        {
+            "id": 1,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 3,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 4,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 5,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 6,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 7,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 8,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 9,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 10,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        }
+    ],
+    "finance": [
+        {
+            "id": 1,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 3,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 4,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 5,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 6,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 7,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 8,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 9,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 10,
+            "request-name": "Supplier Invoice",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        }
+    ],
+    "it": [
+        {
+            "id": 1,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 3,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 4,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 5,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 6,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 7,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 8,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 9,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 10,
+            "request-name": "System Access",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        }
+    ],
+    "procurement": [
+        {
+            "id": 1,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 3,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 4,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 5,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 6,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 7,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 8,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 9,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 10,
+            "request-name": "Transport Request",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "",
+            "service-charge": "",
+            "status": "Completed"
+        }
+    ]
+}
