@@ -12,7 +12,7 @@
                       </h3>
                   </div>
                   <div class="card-footer">
-                      <div class="stats">
+                      <div clasys="stats">
                           <i class="material-icons text-danger">warning</i>
                           <a href="javascript:void(0)">Get More Space...</a>
                       </div>
@@ -89,14 +89,15 @@
                             Date
                         </th>
                         <th>
-                            SLA Duration
+                            SLA Duration (M)
                         </th>
                         <th>
-                            Service Charge
+                            Service Charge (SAR)
                         </th>
                         <th>
                             Status
                         </th>
+                        <th>action</th>
                     </thead>
                     <tbody>
                         <tr *ngFor="let i of data">
@@ -123,9 +124,28 @@
                             <td *ngIf="i.status === 'Completed'"><span class="badge badge-success rounded-pill d-inline ">Completed</span></td>
                             <td *ngIf="i.status === 'Onhold'"><span class="badge badge-warning rounded-pill d-inline ">On Hold</span></td>
                             <td *ngIf="i.status === 'In Progress'"><span class="badge badge-primary rounded-pill d-inline ">In Progress</span></td>
+                            <td *ngIf="i.status === 'New-request'"><span class="badge badge-info rounded-pill d-inline ">New request</span></td>
 
+                            <td><label class="dropdown">
 
+                                <div class="dd-button">
+                                  Action
+                                </div>
+                              
+                                <input type="checkbox" class="dd-input" id="test">
+                              
+                                <ul class="dd-menu">
+                                  <li><a (click)="success()">Approve</a> </li>
+                                  <li><a (click)="reject()">Reject</a> </li>
+                                  
+                                  
+                                  
+                                  
+                                </ul>
+                                
+                              </label> </td>
                         </tr>
+
                     </tbody>
                 </table>
             </div>

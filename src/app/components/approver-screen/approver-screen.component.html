@@ -1,0 +1,150 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">content_copy</i>
+                        </div>
+                        <p class="card-category">Total Request</p>
+                        <h3 class="card-title">150
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div clasys="stats">
+                            <!-- <i class="material-icons text-danger">warning</i> -->
+                            <!-- <a href="javascript:void(0)">Get More Space...</a> -->
+                            <i class="material-icons">local_offer</i> Open Request
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-success card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">store</i>
+                        </div>
+                        <p class="card-category">Request Approved</p>
+                        <h3 class="card-title">120</h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">date_range</i> Last 24 Hours
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-danger card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">info_outline</i>
+                        </div>
+                        <p class="card-category">Request Pending</p>
+                        <h3 class="card-title">30</h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">local_offer</i> Need Approval Soon
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-info card-header-icon">
+                        <div class="card-icon">
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <p class="card-category">Followers</p>
+                        <h3 class="card-title">+245</h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">update</i> Just Updated
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="card">
+          <div class="card-header card-header-danger">
+              <h4 class="card-title ">Request List For Approvals</h4>
+          </div>
+          <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                      <thead class=" text-primary">
+                          <th>
+                              Request Id
+                          </th>
+                          <th>
+                              Request Name
+                          </th>
+                          <th>
+                              Approver Name 
+                          </th>
+                          <th>
+                              Due Date
+                          </th>
+                          <th>
+                              SLA Duration (M)
+                          </th>
+                          <th>
+                              Service Charge (SAR)
+                          </th>
+                          
+                          <th>
+                            Approved Date
+                        </th>
+                          <th>
+                              Status
+                          </th>
+                          
+                          <th>
+                            Actions
+                        </th>
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let i of data">
+                              <td>
+                                  {{i.request-id}}
+                              </td>
+                              <td>
+                                  {{i["request-name"]}}
+                              </td>
+                             <td>
+                              {{i["approver-name"]}}
+                             </td>
+                             <td>
+                              {{i.due-date}}
+                             </td>
+                             <td>
+                              {{i["sla-duration"]}}
+                             </td>
+                             <td>
+                              {{i["service-charge"]}}
+                             </td>
+                             <td>
+                                {{i.approved-date}}
+                               </td>
+                               
+                             
+                          
+                              <td *ngIf="i.status === 'Completed'"><span class="badge badge-success rounded-pill d-inline ">Completed</span></td>
+                              <td *ngIf="i.status === 'Onhold'"><span class="badge badge-warning rounded-pill d-inline ">On Hold</span></td>
+                              <td *ngIf="i.status === 'In Progress'"><span class="badge badge-primary rounded-pill d-inline ">In Progress</span></td>
+  
+  
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  

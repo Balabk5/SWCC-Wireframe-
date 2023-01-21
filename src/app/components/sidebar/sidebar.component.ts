@@ -5,13 +5,14 @@ declare interface RouteInfo {
     path: string;
     title: string;
     icon: string;
-    class: string;
+    class: string;  
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/dashboard', title: 'HR',  icon:'person', class: '' },
-    { path: '/finance', title: 'Finance',  icon:'content_paste', class: '' },
-    { path: '/it', title: 'IT',  icon:'library_books', class: '' },
-    { path: '/procurement-supplychain', title: 'Procurement & Supplychain',  icon:'bubble_chart', class: '' },
+    { path: '/dashboard', title: 'HR Dashboard',  icon:'person', class: '' },
+    { path: '/hrnewrequest', title: 'New Request',  icon:'person', class: '' },
+    { path: '/hronholdrequest', title: 'On Hold',  icon:'money', class: '' },
+    { path: '/hrinprogress', title: 'In progress',  icon:'computer', class: '' },
+    { path: '/hrcompleted', title: 'Completed',  icon:'tick', class: '' },
 
 ];
 

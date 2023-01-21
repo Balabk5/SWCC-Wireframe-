@@ -1,0 +1,79 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header card-header-danger">
+        <h4 class="card-title">Request List</h4>
+      </div>
+      <!-- <app-material-table></app-material-table> -->
+      <div class="card-body">
+        <div class="table-responsive">
+          <div class="input-div">
+            <select [(ngModel)]="enteredSearchText">
+              <option value="">-------</option>
+              <option value="Onhold">On Hold</option>
+              <option value="Completed">Completed</option>
+              <option value="In Progress">In Progress</option>
+            </select>
+          </div>
+          <table class="table">
+            <thead class="text-primary">
+              <th>ID</th>
+              <th>Request Name</th>
+              <th>Approver Name</th>
+              <th>Date</th>
+              <th>SLA Duration</th>
+              <th>Service Charge</th>
+              <th>Status</th>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let i of data">
+                <!-- <div>{{enteredSearchText}},{{i.status}},{{i.status === enteredSearchText}}</div> -->
+                <tr
+                  *ngIf="
+                    enteredSearchText === '' ||
+                    (i.status === enteredSearchText)
+                  "
+                >
+                  <td>
+                    {{ i.id }}
+                  </td>
+                  <td>
+                    {{ i["request-name"] }}
+                  </td>
+                  <td>
+                    {{ i["approver-name"] }}
+                  </td>
+                  <td>
+                    {{ i.date }}
+                  </td>
+                  <td>
+                    {{ i["sla-duration"] }}
+                  </td>
+                  <td>
+                    {{ i["service-charge"] }}
+                  </td>
+
+                  <td *ngIf="i.status === 'Completed'">
+                    <span class="badge badge-success rounded-pill d-inline"
+                      >Completed</span
+                    >
+                  </td>
+                  <td *ngIf="i.status === 'Onhold'">
+                    <span class="badge badge-warning rounded-pill d-inline"
+                      >On Hold</span
+                    >
+                  </td>
+                  <td *ngIf="i.status === 'In Progress'">
+                    <span class="badge badge-primary rounded-pill d-inline"
+                      >In Progress</span
+                    >
+                  </td>
+                </tr>
+              </ng-container>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
