@@ -17,6 +17,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 
 import { ItDashboardLayoutComponent } from './layouts/it-dashboard-layout/it-dashboard-layout.component';
+import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
 
 
 const routes: Routes =[
@@ -39,6 +40,11 @@ const routes: Routes =[
   {
     path: 'home',
     component: HomepageComponent
+    
+  },
+  {
+    path: 'homepage',
+    component: RequesthomepageComponent
     
   },
    {
@@ -80,7 +86,6 @@ const routes: Routes =[
       loadChildren: () => import('./finance-layout/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
     }]
   },
-  {path:'hr-request',component:HrRequestDashboardComponent},
   {
     path: 'finance-req-dashboard',
     component: FinanceReqLayoutComponent,
