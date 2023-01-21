@@ -1,0 +1,115 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="card">
+            
+          <div class="card-header">
+
+              <h4 class="card-title ">List Of Requests</h4>
+          </div>
+          <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                      <thead class=" text-primary">
+                          <th>
+                              Request Id
+                          </th>
+                          <th>
+                              Department
+                          </th>
+                          <th>
+                              Requestor Type
+                          </th>
+                          <th>
+                              Requesting Type
+                          </th>
+                          <th>
+                            From Location
+                        </th>
+                        <th>
+                            To Location
+                        </th>
+                          <th>
+                              Service charge
+                              (SAR)
+                          </th>
+                          <th>
+                              SLA Duration
+                              (DAYS) 
+                          </th>
+                          <th>
+                            Date 
+                        </th>
+
+                          <th>
+                            PO Number
+                        </th>
+                          <!-- <th>
+                              Status
+                          </th> -->
+                          
+                          <th>
+                            Actions
+                        </th>
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let i of data">
+                              <td>
+                                  {{i.id}}
+                              </td>
+                              <td>
+                                  {{i.department}}
+                              </td>
+                             <td>
+                              <!-- {{i.requestor-type}} -->
+                              {{i["requestor-type"]}}
+                             </td>
+                             <td>
+                              <!-- {{i["requestor-type"]}} -->
+                              {{i["requesting-type"]}}
+                             </td>
+                             <td>
+                              <!-- {{i.from-loc}} -->
+                              {{i["from-loc"]}}
+                             </td>
+                             <td>
+                              <!-- {{i.to-loc}} -->
+                              {{i["to-loc"]}}
+                             </td>
+                             <td>
+                                <!-- {{i.service-charge}} -->
+                                {{i["service-charge"]}}
+                               </td>
+                               <td>
+                                <!-- {{i.no-of-days}} -->
+                                {{i["no-of-days"]}}
+                               </td>
+                               <td>
+                                <!-- {{i.req-date}} -->
+                                {{i["req-date"]}}
+                               </td>
+                               <td>
+                                <!-- {{i.po-no}} -->
+                                {{i["po-no"]}}
+                               </td>
+                               <!-- <td> -->
+                                <!-- {{i.status}} -->
+                                <!-- {{i["status"]}} -->
+                               <!-- </td> -->
+                               
+                             
+                          
+                              <td *ngIf="i.status === 'Completed'"><span class="badge badge-success rounded-pill d-inline ">Completed</span></td>
+                              <td *ngIf="i.status === 'Onhold'"><span class="badge badge-warning rounded-pill d-inline ">On Hold</span></td>
+                              <td *ngIf="i.status === 'In Progress'"><span class="badge badge-primary rounded-pill d-inline ">In Progress</span></td>
+                              <td *ngIf="i.status === 'Rejected'"><span class="badge badge-danger rounded-pill d-inline ">Rejected</span></td>
+  
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      
+  
+        </div>          
+                          
+        </div>

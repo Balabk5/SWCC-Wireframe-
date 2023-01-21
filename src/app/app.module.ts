@@ -46,6 +46,9 @@ import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue
 import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
 import { NavbaroverallDBComponent } from './navbaroverall-db/navbaroverall-db.component';
 import { FinanceComponentModule } from './finance-component/finance-component.module';
+import { ProcurementrequestlistComponent } from './procurementrequestlist/procurementrequestlist.component';
+import { ProcurementcreatereqComponent } from './procurementcreatereq/procurementcreatereq.component';
+import { ProcurementComponentModule } from './procurement-component/procurement-component.module';
 
 @NgModule({
   imports: [
@@ -59,6 +62,7 @@ import { FinanceComponentModule } from './finance-component/finance-component.mo
 
     ItComponentModule,
     FinanceComponentModule,
+    ProcurementComponentModule,
 
     MatCardModule,
     MatFormFieldModule,
@@ -100,6 +104,8 @@ import { FinanceComponentModule } from './finance-component/finance-component.mo
       ServiceCatalogueComponent,
       OveralldashboardComponent,
       NavbaroverallDBComponent,
+      ProcurementrequestlistComponent,
+      ProcurementcreatereqComponent,
 
   ],
   providers: [],

@@ -20,6 +20,7 @@ import { ItDashboardLayoutComponent } from './layouts/it-dashboard-layout/it-das
 import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
+import { ProcurementlayoutComponent } from './layouts/procurementlayout/procurementlayout.component';
 
 
 const routes: Routes =[
@@ -85,6 +86,14 @@ const routes: Routes =[
     children: [{
       path: '',
       loadChildren: () => import('./layouts/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
+    }]
+  },
+  {
+    path: 'procurementreq',
+    component: ProcurementlayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./layouts/procurementlayout/procurementlayout.module').then(m => m.ProcurementlayoutModule)
     }]
   },
   // {

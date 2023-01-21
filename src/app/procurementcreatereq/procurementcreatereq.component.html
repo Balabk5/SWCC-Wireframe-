@@ -1,0 +1,136 @@
+<div style="width: 100%; display: flex; justify-content: space-around">
+  <div style="width: 60%" class="main-content">
+    <div class="jobDescriptionContainer">
+      <div class="title">Transport Request</div>
+      <div class="editTitleBtn">
+        <div class="form-job-btn">
+          <!-- <button class="editBtn">Submit</button> -->
+          <button (click)="onSubmit()" type="button" class="btn btn-success btn-sm">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="jobListItemContainer">
+      <div class="marginLeft"></div>
+      <div class="titleListItem">Purchase Order No:</div>
+      <div class="descriptionTitle">
+        <input
+            [(ngModel)] = "searchValue"
+          type="number"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          placeholder="eg., 410010110"
+        />
+      </div>
+      <div class="marginRight"></div>
+    </div>
+
+    <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">Requestor Type:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue1" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., SWCC</option>
+                <option value="2">SWCC</option>
+                <option value="3">Supplier</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+      <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">Requesting Type:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue2" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., Standard</option>
+                <option value="2">Standard</option>
+                <option value="3">Urgent</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+      <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">From Location:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue3" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., Riyadh</option>
+                <option value="2">Riyadh</option>
+                <option value="3">Mecca</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+      <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">To Location:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue4" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., Mecca</option>
+                <option value="2">Mecca</option>
+                <option value="3">Jeddah</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+      <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">Number of Days:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue5" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., 90 - Standard</option>
+                <option value="2">90 - Standard</option>
+                <option value="3">5 - Urgent</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+      <div class="jobListItemContainer">
+        <div class="marginLeft"></div>
+        <div class="titleListItem">Service Charge:</div>
+        <div class="descriptionTitle">
+            <select [(ngModel)] = "searchValue6" class="form-control" id="inputGroupSelect01">
+                <option selected>eg., 3000 SAR - Standard</option>
+                <option value="2">3000 SAR - Standard</option>
+                <option value="3">1000 SAR - Urgent</option>
+              </select>
+        </div>
+        <div class="marginRight"></div>
+      </div>
+
+  
+
+    <!-- <div class="jobListItemContainer">
+                <div class="marginLeft"></div>
+                <div class="titleListItem">Description</div>
+                <div class="descriptionTitle">
+                  The Customer Service Representative is respoonsible for interacting with
+                  and prodviding quality assistance to all radical customers, responsible
+                  for keepiong up-to-date on the various product shizzle; helping the
+                  bidness reduce customer service wait times while doing a backhand spring
+                  and eating a ham sandwich.
+                </div>
+                <div class="marginRight"></div>
+              </div>
+            
+              <div class="jobListItemContainer">
+                <div class="marginLeft"></div>
+                <div class="titleListItem">HIRING LEAD</div>
+                <div class="descriptionTitle">Michael Packard</div>
+                <div class="marginRight"></div>
+              </div>
+            
+              <div class="jobListItemContainer">
+                <div class="marginLeft"></div>
+                <div class="titleListItem">Title</div>
+                <div class="descriptionTitle">$58,000</div>
+                <div class="marginRight"></div>
+              </div> -->
+  </div>
+</div>
