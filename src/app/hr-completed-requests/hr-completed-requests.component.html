@@ -81,7 +81,7 @@
               <th>SLA Duration</th>
               <th>Service Charge</th>
               <th>Status</th>
-              <th>action</th>
+              
             </thead>
             <tbody>
               <tr *ngFor="let i of data">
@@ -106,18 +106,7 @@
                   >
                 </td>
 
-                <td *ngIf="i.status === 'Completed'">
-                  <label class="dropdown">
-                    <div class="dd-button">Action</div>
-
-                    <input type="checkbox" class="dd-input" id="test" />
-
-                    <ul class="dd-menu">
-                      <li><a (click)="success()">Approve</a></li>
-                      <li><a (click)="reject()">Reject</a></li>
-                    </ul>
-                  </label>
-                </td>
+                
               </tr>
             </tbody>
           </table>

@@ -96,6 +96,7 @@
                           <th>
                               Status
                           </th>
+                          <th>Action</th>
                       </thead>
                       <tbody>
                           <tr *ngFor="let i of data">
@@ -111,7 +112,18 @@
                              
                           
                               <td *ngIf="i.status === 'Onhold'"><span class="badge badge-warning rounded-pill d-inline ">On Hold</span></td>
-  
+                              <td *ngIf="i.status === 'Onhold'">
+                                <label class="dropdown">
+                                  <div class="dd-button">Action</div>
+              
+                                  <input type="checkbox" class="dd-input" id="test" />
+              
+                                  <ul class="dd-menu">
+                                    <li><a (click)="success()">Approve</a></li>
+                                    <li><a (click)="reject()">Reject</a></li>
+                                  </ul>
+                                </label>
+                              </td>
   
                           </tr>
                       </tbody>

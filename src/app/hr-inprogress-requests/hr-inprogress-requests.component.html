@@ -96,6 +96,7 @@
                           <th>
                               Status
                           </th>
+                          <th>Action</th>
                       </thead>
                       <tbody>
                           <tr *ngFor="let i of data">
@@ -111,7 +112,18 @@
                              
                           
                               <td *ngIf="i.status === 'In Progress'"><span class="badge badge-primary rounded-pill d-inline ">In Progress</span></td>
-  
+                              <td *ngIf="i.status === 'In Progress'">
+                                <label class="dropdown">
+                                  <div class="dd-button">Action</div>
+              
+                                  <input type="checkbox" class="dd-input" id="test" />
+              
+                                  <ul class="dd-menu">
+                                    <li><a (click)="success()">Approve</a></li>
+                                    <li><a (click)="reject()">Reject</a></li>
+                                  </ul>
+                                </label>
+                              </td> 
   
                           </tr>
                       </tbody>
