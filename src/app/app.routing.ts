@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ApproverScreenComponent } from './components/approver-screen/approver-screen.component';
+import { FinanceReqLayoutComponent } from './finance-layout/finance-req-layout/finance-req-layout.component';
 
 const routes: Routes =[
   
@@ -24,6 +25,14 @@ const routes: Routes =[
     children: [{
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
+    }]
+  },
+  {
+    path: 'finance-req-dashboard',
+    component: FinanceReqLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./finance-layout/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
     }]
   }
 ];

@@ -21,6 +21,11 @@ import { HrNewRequestsComponent } from './hr-new-requests/hr-new-requests.compon
 import { HrOnholdRequestsComponent } from './hr-onhold-requests/hr-onhold-requests.component';
 import { HrCompletedRequestsComponent } from './hr-completed-requests/hr-completed-requests.component';
 import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inprogress-requests.component';
+import { FinanceRequestSidebarComponent } from './finance-request-sidebar/finance-request-sidebar.component';
+import { FinanceReqLayoutComponent } from './finance-layout/finance-req-layout/finance-req-layout.component';
+import { FinanceOnholdRequestsComponent } from './finance-onhold-requests/finance-onhold-requests.component';
+import { FinancePreviousRequestComponent } from './finance-previous-request/finance-previous-request.component';
+import { FinanceCreateRequestComponent } from './finance-create-request/finance-create-request.component';
 
 
 @NgModule({
@@ -50,6 +55,11 @@ import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inpro
     HrOnholdRequestsComponent,
     HrCompletedRequestsComponent,
     HrInprogressRequestsComponent,
+    FinanceRequestSidebarComponent,
+    FinanceReqLayoutComponent,
+    FinanceOnholdRequestsComponent,
+    FinancePreviousRequestComponent,
+    FinanceCreateRequestComponent,
 
 
   ],
