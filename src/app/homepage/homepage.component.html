@@ -16,7 +16,7 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <button type="button" class="btn btn-outline-info home__service_btn">Service Catalogue</button>
+    <button [routerLink]="'/service-catalogue'" type="button" class="btn btn-outline-info home__service_btn">Service Catalogue</button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!-- <li class="nav-item">
@@ -73,7 +73,7 @@
 >
   <div class="row justify-content-md-center">
     <div class="col-lg-3">
-      <a href="/human-resource" class="text-decoration-none">
+      <a [routerLink]="'/hr-approver'" class="text-decoration-none">
         <div class="card bg-dark">
           <img
             src="https://ridzeal.com/wp-content/uploads/2021/04/featured-image-rd.jpg"
@@ -84,6 +84,23 @@
           <div class="card-body">
             <h4 class="card-title text-center" style="color: white">
               Human Resource
+            </h4>
+          </div>
+        </div></a
+      >
+    </div>
+    <div class="col-lg-3">
+      <a [routerLink]="'/it-approver'" class="text-decoration-none">
+        <div class="card bg-dark">
+          <img
+            src="https://www.infolinktechnologies.net/wp-content/uploads/2019/09/blog-image-9.17.jpg"
+            height="150"
+            class="card-img-top"
+            alt="IT Services"
+          />
+          <div class="card-body">
+            <h4 class="card-title text-center" style="color: white">
+              IT Services
             </h4>
           </div>
         </div></a
@@ -121,23 +138,7 @@
         </div></a
       >
     </div>
-    <div class="col-lg-3">
-      <a href="/it-service" class="text-decoration-none">
-        <div class="card bg-dark">
-          <img
-            src="https://www.infolinktechnologies.net/wp-content/uploads/2019/09/blog-image-9.17.jpg"
-            height="150"
-            class="card-img-top"
-            alt="IT Services"
-          />
-          <div class="card-body">
-            <h4 class="card-title text-center" style="color: white">
-              IT Services
-            </h4>
-          </div>
-        </div></a
-      >
-    </div>
+    
     
   </div>
   

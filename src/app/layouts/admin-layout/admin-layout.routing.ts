@@ -65,6 +65,11 @@ export const AdminLayoutRoutes: Routes = [
     //         component: UpgradeComponent
     //     }]
     // }
+    {
+        path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+      },
     { path: 'dashboard',      component: DashboardComponent },
     { path: 'user-profile',   component: UserProfileComponent },
     { path: 'table-list',     component: TableListComponent },

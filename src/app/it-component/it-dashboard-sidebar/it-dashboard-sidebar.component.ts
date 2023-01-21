@@ -9,11 +9,11 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/itreq-approver/itdashboard', title: 'IT Dashboard',  icon:'person', class: '' },
-    { path: '/itreq-approver/itnew', title: 'New Request',  icon:'person', class: '' },
-    { path: '/itreq-approver/itonhold', title: 'On Hold',  icon:'money', class: '' },
-    { path: '/itreq-approver/itinprogress', title: 'In progress',  icon:'computer', class: '' },
-    { path: '/itreq-approver/itcomplete', title: 'Completed',  icon:'done', class: '' },
+    { path: '/it-approver/dashboard', title: 'IT Dashboard',  icon:'person', class: '' },
+    { path: '/it-approver/itnew', title: 'New Request',  icon:'person', class: '' },
+    { path: '/it-approver/itonhold', title: 'On Hold',  icon:'money', class: '' },
+    { path: '/it-approver/itinprogress', title: 'In progress',  icon:'computer', class: '' },
+    { path: '/it-approver/itcomplete', title: 'Completed',  icon:'done', class: '' },
 
 ];
 

@@ -17,13 +17,14 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 
 import { ItDashboardLayoutComponent } from './layouts/it-dashboard-layout/it-dashboard-layout.component';
+import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 
 
 const routes: Routes =[
   
   {
     path: '',
-    redirectTo: 'homepage',
+    redirectTo: 'login',
     pathMatch: 'full',
   },
   {
@@ -42,7 +43,7 @@ const routes: Routes =[
     
   },
    {
-    path: '',
+    path: 'hr-approver',
     component: AdminLayoutComponent,
     children: [{
       path: '',
@@ -59,7 +60,7 @@ const routes: Routes =[
     }]
   },
   {
-    path: 'itreq-approver',
+    path: 'it-approver',
     component: ItDashboardLayoutComponent,
     children: [{
       path: '',
@@ -97,6 +98,10 @@ const routes: Routes =[
         loadChildren: ()=>import('./components/layouts/request-layout/request-layout.module').then(m=>m.RequestLayoutModule)
       }]
     
+  },
+  {
+    path: 'service-catalogue',
+    component: ServiceCatalogueComponent
   }
 
 

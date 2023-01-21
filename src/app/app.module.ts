@@ -41,6 +41,7 @@ import { ItDashboardCompleteComponent } from './it-dashboard-complete/it-dashboa
 import { ItDashboardInprogressComponent } from './it-dashboard-inprogress/it-dashboard-inprogress.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 
 @NgModule({
   imports: [
@@ -91,6 +92,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
       ItDashboardInprogressComponent,
       HomepageComponent,
       LoginPageComponent,
+      ServiceCatalogueComponent,
 
   ],
   providers: [],
