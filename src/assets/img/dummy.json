@@ -5,8 +5,8 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "8M",
-            "service-charge": "",
+            "sla-duration": "8",
+            "service-charge": "13500",
             "status": "Completed"
         },
         {
@@ -14,8 +14,8 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "8M",
-            "service-charge": "",
+            "sla-duration": "8",
+            "service-charge": "13500",
             "status": "Onhold"
         },
         {
@@ -23,8 +23,8 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "12M",
-            "service-charge": "",
+            "sla-duration": "12",
+            "service-charge": "13500",
             "status": "Completed"
         },
         {
@@ -32,8 +32,8 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "8M",
-            "service-charge": "",
+            "sla-duration": "8",
+            "service-charge": "13500",
             "status": "Onhold"
         },
         {
@@ -41,8 +41,8 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "12M",
-            "service-charge": "",
+            "sla-duration": "12",
+            "service-charge": "13500",
             "status": "Completed"
         },
         {
@@ -50,8 +50,8 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "8M",
-            "service-charge": "",
+            "sla-duration": "8",
+            "service-charge": "13500",
             "status": "Onhold"
         },
         {
@@ -59,8 +59,8 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "12M",
-            "service-charge": "",
+            "sla-duration": "12",
+            "service-charge": "13500",
             "status": "Completed"
         },
         {
@@ -68,8 +68,8 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "8M",
-            "service-charge": "",
+            "sla-duration": "8",
+            "service-charge": "13500",
             "status": "In Progress"
         },
         {
@@ -77,8 +77,8 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "13-01-2023",
-            "sla-duration": "12M",
-            "service-charge": "",
+            "sla-duration": "12",
+            "service-charge": "13500",
             "status": "In Progress"
         },
         {
@@ -86,8 +86,8 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "13-01-2023",
-            "sla-duration": "12M",
-            "service-charge": "",
+            "sla-duration": "12",
+            "service-charge": "13500",
             "status": "In Progress"
         }
     ],
