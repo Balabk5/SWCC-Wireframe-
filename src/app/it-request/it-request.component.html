@@ -20,6 +20,7 @@
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="eg., Abbad"
+                [(ngModel)]="searchValue"
               />
             </div>
             <div class="marginRight"></div>
@@ -35,6 +36,7 @@
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="eg., 0010"
+                [(ngModel)]="searchValue1"
               />
             </div>
             <div class="marginRight"></div>
@@ -65,7 +67,7 @@
                 aria-describedby="emailHelp"
                 placeholder="Enter System Name"
               /> -->
-              <select class="form-control" id="inputGroupSelect01">
+              <select [(ngModel)]="searchValue2" class="form-control" id="inputGroupSelect01">
                 <option selected>eg., SAP SF</option>
                 <option value="1">SAP S4/HANA</option>
                 <option value="2">SAP SF</option>
@@ -86,6 +88,7 @@
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="eg., To get procurement details"
+                [(ngModel)]="searchValue3"
                 ></textarea>
                 <!-- <input
                 type="text"
