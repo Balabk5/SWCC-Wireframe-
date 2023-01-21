@@ -10,7 +10,10 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { ItComponent } from './it/it.component';
 import { FinanceComponent } from './finance/finance.component';
 import { ProcurementComponent } from './procurement/procurement.component';
-
+import { FinanceRequestComponent } from './finance-request/finance-request.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -20,6 +23,9 @@ import { ProcurementComponent } from './procurement/procurement.component';
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatDatepickerModule
   ],
   declarations: [
     AppComponent,
@@ -27,6 +33,7 @@ import { ProcurementComponent } from './procurement/procurement.component';
     ItComponent,
     FinanceComponent,
     ProcurementComponent,
+    FinanceRequestComponent
 
   ],
   providers: [],

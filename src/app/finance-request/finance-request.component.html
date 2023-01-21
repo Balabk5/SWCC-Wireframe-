@@ -1,0 +1,24 @@
+<div>
+    <input type="text" id="employee_name" placeholder="Employee Name" name="employee_name" [(ngModel)]="first_name">
+    <br/>
+    <label for="designation" id="designation" name="'designation" >Designation</label>
+    <br/>
+    <select name="designation" id="designation" [(ngModel)]="designation">
+        <option value="Designation1" >Designation1</option>
+        <option value="Designation2">Designation2</option>
+        <option value="Designation3">Designation3</option>
+        <option value="Others">Others</option>
+      </select>
+      <br/>
+    <input type="text" id="invoiceno" placeholder="invoice number" name="invoiceno" [(ngModel)]="invoiceno">
+    <br/>
+    <label for="invoicedate" id="invoicedate" name="invoicedate" >Invoice date :</label>
+    <br/>
+    <input type="date" id="invoicedate" name="invoicedate" [(ngModel)]="invoicedate" >
+    <br/>
+    <input type="text" id="supplier_name" placeholder="supplier_name" name="supplier_name" [(ngModel)]="supplier_name">
+    <br/>
+    <input type="text" id="amount" name="amount" placeholder="amount" [(ngModel)]="amount">
+    <br/>
+    <button type="button" (click)="setValue()">Click here</button>
+</div>
