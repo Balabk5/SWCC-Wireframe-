@@ -27,6 +27,8 @@ import { FinanceOnholdRequestsComponent } from './finance-onhold-requests/financ
 import { FinancePreviousRequestComponent } from './finance-previous-request/finance-previous-request.component';
 import { FinanceCreateRequestComponent } from './finance-create-request/finance-create-request.component';
 
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   imports: [
@@ -40,6 +42,8 @@ import { FinanceCreateRequestComponent } from './finance-create-request/finance-
     MatCardModule,
     MatFormFieldModule,
     MatDatepickerModule
+    MatTableModule,
+    MatSortModule
   ],
   declarations: [
     AppComponent,
