@@ -30,6 +30,7 @@ import { FinanceCreateRequestComponent } from './finance-create-request/finance-
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   imports: [
@@ -67,6 +68,7 @@ import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component
     FinanceCreateRequestComponent,
 
     HrNewRequestComponent,
+      HomepageComponent,
 
   ],
   providers: [],

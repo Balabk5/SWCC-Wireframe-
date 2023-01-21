@@ -9,6 +9,8 @@ import { FinanceReqLayoutComponent } from './finance-layout/finance-req-layout/f
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
 import { HrRequestDashboardComponent } from './components/hr-request-dashboard/hr-request-dashboard.component';
 import { RequestLayoutComponent } from './components/layouts/request-layout/request-layout.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
 
 const routes: Routes =[
   
@@ -39,6 +41,7 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./finance-layout/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
     }]
+  },
   {path:'hr-request',component:HrRequestDashboardComponent},
   {
     path: 'finance-req-dashboard',
