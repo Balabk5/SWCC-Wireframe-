@@ -10,6 +10,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { ItComponent } from './it/it.component';
 import { FinanceComponent } from './finance/finance.component';
 import { ProcurementComponent } from './procurement/procurement.component';
+import { JobrequestComponent } from './jobrequest/jobrequest.component';
 
 @NgModule({
   imports: [
@@ -27,6 +28,7 @@ import { ProcurementComponent } from './procurement/procurement.component';
     ItComponent,
     FinanceComponent,
     ProcurementComponent,
+    JobrequestComponent,
 
   ],
   providers: [],

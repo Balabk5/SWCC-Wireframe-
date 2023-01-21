@@ -4,6 +4,7 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+import { JobrequestComponent } from './jobrequest/jobrequest.component';
 
 const routes: Routes =[
   {
@@ -17,7 +18,8 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
-  }
+  },
+  { path:'Jobrequest', component:JobrequestComponent }
 ];
 
 @NgModule({

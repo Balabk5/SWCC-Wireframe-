@@ -10,7 +10,6 @@ import { ApiService } from 'app/api.service';
 export class DashboardComponent implements OnInit {
 
   data:{}
-
   constructor(private apiservice:ApiService) { }
   startAnimationForLineChart(chart){
       let seq: any, delays: any, durations: any;
