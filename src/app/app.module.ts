@@ -26,10 +26,10 @@ import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inpro
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
-    MatCardModule,
-    MatFormFieldModule,
-    MatDatepickerModule,
-    MatSortModule
+    // MatCardModule,
+    // MatFormFieldModule,
+    // MatDatepickerModule,
+    // MatSortModule
   ],
   declarations: [
     AppComponent,
@@ -43,7 +43,6 @@ import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inpro
     InprogressRequestsComponent,
     HrCompletedRequestsComponent,
     HrInprogressRequestsComponent,
-
   ],
   providers: [],
   bootstrap: [AppComponent]
