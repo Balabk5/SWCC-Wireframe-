@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ApproverScreenComponent } from './approver-screen/approver-screen.component';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,7 +17,11 @@ import { ApproverScreenComponent } from './approver-screen/approver-screen.compo
     FooterComponent,
     NavbarComponent,
     SidebarComponent,
+
+    
+
     ApproverScreenComponent
+
   ],
   exports: [
     FooterComponent,
