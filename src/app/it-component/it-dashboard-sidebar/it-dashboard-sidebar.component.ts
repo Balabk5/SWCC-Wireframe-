@@ -13,7 +13,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/itreq-approver/itnew', title: 'New Request',  icon:'person', class: '' },
     { path: '/itreq-approver/itonhold', title: 'On Hold',  icon:'money', class: '' },
     { path: '/itreq-approver/itinprogress', title: 'In progress',  icon:'computer', class: '' },
-    { path: '/itreq-approver/itcomplete', title: 'Completed',  icon:'tick', class: '' },
+    { path: '/itreq-approver/itcomplete', title: 'Completed',  icon:'done', class: '' },
 
 ];
 
