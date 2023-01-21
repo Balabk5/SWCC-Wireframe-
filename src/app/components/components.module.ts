@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HrRequestDashboardComponent } from './hr-request-dashboard/hr-request-dashboard.component';
 import { RequestLayoutComponent } from './layouts/request-layout/request-layout.component';
+import { HrReqSidebarComponent } from './layouts/hr-req-sidebar/hr-req-sidebar.component';
 
 @NgModule({
   imports: [
@@ -18,7 +19,8 @@ import { RequestLayoutComponent } from './layouts/request-layout/request-layout.
     NavbarComponent,
     SidebarComponent,
     HrRequestDashboardComponent,
-    RequestLayoutComponent
+    RequestLayoutComponent,
+    HrReqSidebarComponent
   ],
   exports: [
     FooterComponent,
