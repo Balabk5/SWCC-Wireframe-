@@ -4,6 +4,11 @@ import { ItRequestListComponent } from 'app/it-request-list/it-request-list.comp
 import { ItRequestComponent } from 'app/it-request/it-request.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: 'it-requests',
+    pathMatch: 'full',
+  },
   {path:'it-requests',component:ItRequestListComponent},
   {path: 'it-request-create',component:ItRequestComponent}
 ];

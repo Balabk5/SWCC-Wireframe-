@@ -18,7 +18,12 @@ import { HrCompletedRequestsComponent } from 'app/hr-completed-requests/hr-compl
  
 
 export const RequestLayoutRoutes: Routes = [
-    { path: 'dashboard',      component: DashboardComponent },
+    {
+        path: '',
+        redirectTo: 'requests',
+        pathMatch: 'full',
+      },
+    { path: 'requests',      component: DashboardComponent },
     { path: 'user-profile',   component: UserProfileComponent },
     { path: 'table-list',     component: TableListComponent },
     { path: 'typography',     component: TypographyComponent },

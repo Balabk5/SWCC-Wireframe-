@@ -9,6 +9,7 @@ import { HrRequestDashboardComponent } from './hr-request-dashboard/hr-request-d
 import { RequestLayoutComponent } from './layouts/request-layout/request-layout.component';
 import { HrReqSidebarComponent } from './layouts/hr-req-sidebar/hr-req-sidebar.component';
 import { ApproverScreenComponent } from './approver-screen/approver-screen.component';
+import { HrReqNavbarComponent } from './layouts/hr-req-navbar/hr-req-navbar.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { ApproverScreenComponent } from './approver-screen/approver-screen.compo
 
     
 
-    ApproverScreenComponent
+    ApproverScreenComponent,
+              HrReqNavbarComponent
 
   ],
   exports: [
