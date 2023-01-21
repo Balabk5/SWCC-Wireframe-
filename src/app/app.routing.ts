@@ -43,7 +43,7 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./layouts/it-layout/it-layout.module').then(m => m.ItLayoutModule)
     }]
-  }
+  },
   // {
   //   path: 'itreq'
   // }
@@ -57,6 +57,7 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./finance-layout/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
     }]
+  },
   {path:'hr-request',component:HrRequestDashboardComponent},
   {
     path: 'finance-req-dashboard',

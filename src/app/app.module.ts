@@ -45,7 +45,7 @@ import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component
     RouterModule,
     AppRoutingModule,
 
-    ItComponentModule
+    ItComponentModule,
 
     MatCardModule,
     MatFormFieldModule,
