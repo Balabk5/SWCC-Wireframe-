@@ -1,0 +1,22 @@
+.swcc__logo{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.navbar-nav{
+}
+.home__service_btn{
+    margin-left: 45%;
+
+}
+.home__bg{
+    background-image: url('../../assets/img/Slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -30;
+    transition: .6s;
+}
+.col-lg-3:hover{
+    transform:scale(1.025);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
