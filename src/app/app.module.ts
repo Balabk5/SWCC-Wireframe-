@@ -34,6 +34,7 @@ import { FinanceCreateRequestComponent } from './finance-create-request/finance-
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component';
+import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
 
 @NgModule({
   imports: [
@@ -77,6 +78,7 @@ import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component
     FinanceCreateRequestComponent,
 
     HrNewRequestComponent,
+      MainDashboardComponent,
 
   ],
   providers: [],
