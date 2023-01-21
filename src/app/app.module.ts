@@ -11,7 +11,9 @@ import { ItComponent } from './it/it.component';
 import { FinanceComponent } from './finance/finance.component';
 import { ProcurementComponent } from './procurement/procurement.component';
 import { ItRequestComponent } from './it-request/it-request.component';
-import { SidebarComponent } from './it-component/sidebar/sidebar.component';
+import { ItLayoutComponent } from './layouts/it-layout/it-layout.component';
+import { ItComponentModule } from './it-component/it-component.module';
+import { ItRequestListComponent } from './it-request-list/it-request-list.component';
 
 @NgModule({
   imports: [
@@ -22,15 +24,16 @@ import { SidebarComponent } from './it-component/sidebar/sidebar.component';
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
+    ItComponentModule
   ],
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    ItComponent,
+    ItLayoutComponent,
     FinanceComponent,
     ProcurementComponent,
     ItRequestComponent,
-    SidebarComponent,
+    ItRequestListComponent,
 
   ],
   providers: [],

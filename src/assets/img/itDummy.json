@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "service-code": "SSA-IT-4001-1",
+      "date": "21-01-2023",
+      "sla-duration": "2 hours",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "service-code": "SSA-IT-4001-2",
+      "date": "20-01-2023",
+      "sla-duration": "3 days",
+      "status": "In Progress"
+    },
+    {
+      "id": 3,
+      "service-code": "SSA-IT-4002-1",
+      "date": "21-01-2023",
+      "sla-duration": "2 days",
+      "status": "On hold"
+    },
+    {
+      "id": 4,
+      "service-code": "SSA-IT-4001-1",
+      "date": "21-01-2023",
+      "sla-duration": "2 hours",
+      "status": "Completed"
+    }
+  ]
+}

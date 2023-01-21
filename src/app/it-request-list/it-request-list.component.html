@@ -1,0 +1,53 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="card">
+          <div class="card-header card-header-danger">
+              <h4 class="card-title ">Request List</h4>
+          </div>
+          <div class="card-body">
+              <div class="table-responsive">
+                  <table class="table">
+                      <thead class=" text-primary">
+                          <th>
+                              ID
+                          </th>
+                          <th>
+                              Service Code
+                          </th>
+                          <th>
+                              Date
+                          </th>
+                          <th>
+                              SLA Duration
+                          </th>
+                          <th>
+                              Status
+                          </th>
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let i of data">
+                              <td>
+                                  {{i.id}}
+                              </td>
+                              <td>
+                                  {{i["service-code"]}}
+                              </td>
+                             <td>
+                              {{i.date}}
+                             </td>
+                             <td>
+                              {{i["sla-duration"]}}
+                             </td>
+                              <td *ngIf="i.status === 'Completed'"><span class="badge badge-success rounded-pill d-inline ">Completed</span></td>
+                              <td *ngIf="i.status === 'On hold'"><span class="badge badge-warning rounded-pill d-inline ">On Hold</span></td>
+                              <td *ngIf="i.status === 'In Progress'"><span class="badge badge-primary rounded-pill d-inline ">In Progress</span></td>
+  
+  
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>

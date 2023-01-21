@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import * as dummydata from '../assets/img/dummy.json';
+import * as itData from '../assets/img/itDummy.json';
 
 
 @Injectable({
@@ -8,8 +9,10 @@ import * as dummydata from '../assets/img/dummy.json';
 })
 export class ApiService {
   data: {} = (dummydata as any).default;
+  itdata: {} = (itData as any).default;
   constructor() { 
     console.log((dummydata as any).default);
+    console.log((itData as any).default);
   }
   getHrdata() {
     return this.data["hr"]
@@ -24,5 +27,8 @@ export class ApiService {
   }
   getProcurementData(){
     return this.data["procurement"]
+  }
+  getItRequestData(){
+    return this.itdata["data"]
   }
 }

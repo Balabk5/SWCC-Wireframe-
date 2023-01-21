@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { ItRequestComponent } from './it-request/it-request.component';
+import { ItLayoutComponent } from './layouts/it-layout/it-layout.component';
 
 const routes: Routes =[
   {
@@ -18,10 +19,18 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
-  },{
-    path:"itreq",
-    component:ItRequestComponent
+  },
+  {
+    path:'itreq',
+    component:ItLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./layouts/it-layout/it-layout.module').then(m => m.ItLayoutModule)
+    }]
   }
+  // {
+  //   path: 'itreq'
+  // }
 ];
 
 @NgModule({
