@@ -41,8 +41,7 @@ import { MatSortModule } from '@angular/material/sort';
     AppRoutingModule,
     MatCardModule,
     MatFormFieldModule,
-    MatDatepickerModule
-    MatTableModule,
+    MatDatepickerModule,
     MatSortModule
   ],
   declarations: [
