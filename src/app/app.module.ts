@@ -34,6 +34,11 @@ import { FinanceCreateRequestComponent } from './finance-create-request/finance-
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component';
+import { ItDashboardMainComponent } from './it-dashboard-main/it-dashboard-main.component';
+import { ItDashboardNewComponent } from './it-dashboard-new/it-dashboard-new.component';
+import { ItDashboardOnholdComponent } from './it-dashboard-onhold/it-dashboard-onhold.component';
+import { ItDashboardCompleteComponent } from './it-dashboard-complete/it-dashboard-complete.component';
+import { ItDashboardInprogressComponent } from './it-dashboard-inprogress/it-dashboard-inprogress.component';
 
 @NgModule({
   imports: [
@@ -77,6 +82,11 @@ import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component
     FinanceCreateRequestComponent,
 
     HrNewRequestComponent,
+      ItDashboardMainComponent,
+      ItDashboardNewComponent,
+      ItDashboardOnholdComponent,
+      ItDashboardCompleteComponent,
+      ItDashboardInprogressComponent,
 
   ],
   providers: [],
