@@ -1,1 +1,55 @@
-<p>finance-previous-request works!</p>
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="card">
+      <div class="card-header card-header-danger">
+        <h4 class="card-title">Requests</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="text-primary">
+              <th>Employee Id</th>
+              <th>Designation</th>
+              <th>Invoice No</th>
+              <th>Invoice Date</th>
+              <th>Supplier Name</th>
+              <th>Service Amount</th>
+              <th>Status</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let i of data">
+                <td>{{ i["employee id"] }}</td>
+                <td>{{ i["Designation"] }}</td>
+                <td>{{ i["invoice no"] }}</td>
+                <td>{{ i["invoice date"] }}</td>
+                <td>{{ i["Supplier name"] }}</td>
+                <td>{{ i["amount"] }}</td>
+                <td>{{ i["status"] }}</td>
+                <td *ngIf="i.Status === 'Approved'">
+                  <span class="badge badge-success rounded-pill d-inline"
+                    >Completed</span
+                  >
+                </td>
+                <td *ngIf="i.Status === 'In progress'">
+                  <span class="badge badge-primary rounded-pill d-inline"
+                    >In Progress</span
+                  >
+                </td>
+                <td *ngIf="i.Status === 'On Hold'">
+                  <span class="badge badge-warning rounded-pill d-inline"
+                    >On Hold</span
+                  >
+                </td>
+                <td *ngIf="i.Status === 'Opened'">
+                  <span class="badge badge-secondary rounded-pill d-inline"
+                    >Opened</span
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

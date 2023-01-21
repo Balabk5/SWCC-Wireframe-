@@ -45,6 +45,7 @@ import { RequesthomepageComponent } from './requesthomepage/requesthomepage.comp
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
 import { NavbaroverallDBComponent } from './navbaroverall-db/navbaroverall-db.component';
+import { FinanceComponentModule } from './finance-component/finance-component.module';
 
 @NgModule({
   imports: [
@@ -57,6 +58,7 @@ import { NavbaroverallDBComponent } from './navbaroverall-db/navbaroverall-db.co
     AppRoutingModule,
 
     ItComponentModule,
+    FinanceComponentModule,
 
     MatCardModule,
     MatFormFieldModule,
@@ -69,7 +71,6 @@ import { NavbaroverallDBComponent } from './navbaroverall-db/navbaroverall-db.co
     AppComponent,
     AdminLayoutComponent,
     ItLayoutComponent,
-    FinanceComponent,
     ProcurementComponent,
     ItRequestComponent,
     ItRequestListComponent,
