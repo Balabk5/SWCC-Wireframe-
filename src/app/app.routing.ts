@@ -9,7 +9,7 @@ import { ItRequestComponent } from './it-request/it-request.component';
 import { ItLayoutComponent } from './layouts/it-layout/it-layout.component';
 
 import { ApproverScreenComponent } from './components/approver-screen/approver-screen.component';
-import { FinanceReqLayoutComponent } from './finance-layout/finance-req-layout/finance-req-layout.component';
+import { FinanceReqLayoutComponent } from './layouts/finance-req-layout/finance-req-layout.component';
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
 import { HrRequestDashboardComponent } from './components/hr-request-dashboard/hr-request-dashboard.component';
 import { RequestLayoutComponent } from './components/layouts/request-layout/request-layout.component';
@@ -71,6 +71,14 @@ const routes: Routes =[
     children: [{
       path: '',
       loadChildren: () => import('./layouts/it-dashboard-layout/it-dashboard-layout.module').then(m => m.ItDashboardLayoutModule)
+    }]
+  },
+  {
+    path: 'financereq',
+    component: FinanceReqLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./layouts/finance-req-layout/finance-req-layout.module').then(m => m.FinanceReqLayoutModule)
     }]
   },
   // {

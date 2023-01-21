@@ -43,6 +43,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
+import { FinanceComponentModule } from './finance-component/finance-component.module';
 
 @NgModule({
   imports: [
@@ -55,6 +56,7 @@ import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue
     AppRoutingModule,
 
     ItComponentModule,
+    FinanceComponentModule,
 
     MatCardModule,
     MatFormFieldModule,
@@ -67,7 +69,6 @@ import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue
     AppComponent,
     AdminLayoutComponent,
     ItLayoutComponent,
-    FinanceComponent,
     ProcurementComponent,
     ItRequestComponent,
     ItRequestListComponent,
