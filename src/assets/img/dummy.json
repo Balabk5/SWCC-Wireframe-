@@ -141,6 +141,186 @@
             "approved-date": "MM-DD-YYYY",
             "Actions": "Wait"
 
+        },
+        {
+            "id": 11,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 12,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 13,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 14,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 15,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 16,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 17,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 18,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 19,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 20,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "In Progress"
+        },
+        {
+            "id": 21,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 22,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "10-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "Onhold"
+        },
+        {
+            "id": 23,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "Completed"
+        },
+        {
+            "id": 24,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 25,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "11-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 26,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 27,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 28,
+            "request-name": "Internal Employment",
+            "approver-name": "Ekram",
+            "date": "12-01-2023",
+            "sla-duration": "8M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 29,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "New-request"
+        },
+        {
+            "id": 30,
+            "request-name": "External Employment",
+            "approver-name": "Ekram",
+            "date": "13-01-2023",
+            "sla-duration": "12M",
+            "service-charge": "",
+            "status": "New-request"
         }
     ],
     "finance": [

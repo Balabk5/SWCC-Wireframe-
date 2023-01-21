@@ -1,0 +1,77 @@
+.jobDescriptionContainer {
+    display:flex;
+    height:48px;
+    line-height:48px;
+    background:#0066cd;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+  }
+  
+  .title {
+    width:200px;
+    margin-left:20px;
+    font-size:12px;
+    font-weight:bold;
+    color:#ffffff;
+    text-transform:uppercase;
+  }
+  
+  
+  
+  .descriptionTitle {
+    flex:1;
+    border-bottom:1px solid #eef2f5;
+    font-size:12px;
+    color:#444444;
+    padding:20px 20px 20px 0px;
+  
+  }
+  
+  .jobListItemContainer {
+    display:flex;
+    /* height:48px;
+    line-height:48px; */
+    background:#ffffff;
+  }
+  
+  .marginLeft {
+    width:20px;
+  }
+  
+   .titleListItem {
+     padding:20px 20px 20px 0px;
+     width:200px;
+     border-bottom:1px solid #eef2f5;
+     font-size:12px;
+     font-weight:bold;
+     color:#7a8aa0;
+     text-transform: uppercase;
+  }
+  
+  .editTitleBtn,.form-job-btn {
+    display: flex;
+    justify-content: end;
+    height:auto;
+    width: 59%;
+  }
+  
+  .editBtn {
+    position:absolute;
+    right:20px;
+    top:13px;
+    background:#27c574;
+    border:none;
+    width:65px;
+    height:30px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-weight:bold;
+    border-radius:2px;
+  }
+  
+  .marginRight {
+    width:20px;
+  }
+  
+  
+  
