@@ -5,13 +5,19 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
-
+import { ApproverScreenComponent } from './components/approver-screen/approver-screen.component';
 const routes: Routes =[
   {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  }, {
+  },
+  {
+    path: 'approver-screen',
+    component: ApproverScreenComponent
+    
+  },
+   {
     path: '',
     component: AdminLayoutComponent,
     children: [{
