@@ -77,7 +77,7 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'it', component:ItComponent },
     { path:'procurement-supplychain', component:ProcurementComponent },
 
-    { path:'it-request', component:ItRequestComponent }
+    { path:'it-request', component:ItRequestComponent },
 
     { path:'hronholdrequest', component:HrOnholdRequestsComponent },
     { path:'hrinprogress', component:HrInprogressRequestsComponent },

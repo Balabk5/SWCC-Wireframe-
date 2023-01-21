@@ -46,7 +46,7 @@ import { MainDashboardComponent } from './main-dashboard/main-dashboard.componen
     RouterModule,
     AppRoutingModule,
 
-    ItComponentModule
+    ItComponentModule,
 
     MatCardModule,
     MatFormFieldModule,
