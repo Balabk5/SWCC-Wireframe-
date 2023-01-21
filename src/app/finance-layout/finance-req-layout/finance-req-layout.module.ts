@@ -12,7 +12,6 @@ import { FinanceRequestSidebarComponent } from 'app/finance-request-sidebar/fina
   imports: [
     CommonModule,
     FinanceReqLayoutRoutingModule,
-
   ]
 })
 export class FinanceReqLayoutModule { }
