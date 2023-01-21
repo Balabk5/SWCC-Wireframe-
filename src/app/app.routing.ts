@@ -13,18 +13,31 @@ import { FinanceReqLayoutComponent } from './finance-layout/finance-req-layout/f
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
 import { HrRequestDashboardComponent } from './components/hr-request-dashboard/hr-request-dashboard.component';
 import { RequestLayoutComponent } from './components/layouts/request-layout/request-layout.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+
 
 
 const routes: Routes =[
   
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'homepage',
     pathMatch: 'full',
   },
   {
     path: 'approver-screen',
     component: ApproverScreenComponent
+    
+  },
+  {
+    path: 'login',
+    component: LoginPageComponent
+    
+  },  
+  {
+    path: 'home',
+    component: HomepageComponent
     
   },
    {

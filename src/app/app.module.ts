@@ -39,6 +39,8 @@ import { ItDashboardNewComponent } from './it-dashboard-new/it-dashboard-new.com
 import { ItDashboardOnholdComponent } from './it-dashboard-onhold/it-dashboard-onhold.component';
 import { ItDashboardCompleteComponent } from './it-dashboard-complete/it-dashboard-complete.component';
 import { ItDashboardInprogressComponent } from './it-dashboard-inprogress/it-dashboard-inprogress.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   imports: [
@@ -87,6 +89,8 @@ import { ItDashboardInprogressComponent } from './it-dashboard-inprogress/it-das
       ItDashboardOnholdComponent,
       ItDashboardCompleteComponent,
       ItDashboardInprogressComponent,
+      HomepageComponent,
+      LoginPageComponent,
 
   ],
   providers: [],

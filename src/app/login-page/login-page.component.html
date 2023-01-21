@@ -1,0 +1,48 @@
+<div class="container" >
+    <div class="parent clearfix">
+      <div class="bg-illustration">
+        <img class="logo" src="https://energy-utilities.com/1-comp292538.png" alt="logo">
+    
+        <div class="burger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+    
+      </div>
+    
+    
+    
+      <div class="screen__content">
+        <form class="login" [formGroup]="loginForm" (ngSubmit)="loginClicked()" >
+          <div class="welcome_txt">Welcome back to Shared Services Portal</div>
+          <div class="login__field">
+            <i class="login__icon fas fa-user"></i>
+            <input type="text" class="login__input" placeholder="Username/LoginId"
+              formControlName="user"
+            >
+          </div>
+          <div class="login__field">
+            <i class="login__icon fas fa-lock"></i>
+            <input type="password" 
+            formControlName="Password"
+            class="login__input" placeholder="Password">
+          </div>
+          <button class="button login__submit">
+            <nav>
+              <span class="button__text">Log In</span>
+            </nav>
+          </button>
+        </form>
+    
+      </div>
+      <div class="screen__background">
+        <span class="screen__background__shape screen__background__shape4"></span>
+        <span class="screen__background__shape screen__background__shape3"></span>
+        <span class="screen__background__shape screen__background__shape2"></span>
+        <span class="screen__background__shape screen__background__shape1"></span>
+      </div>
+    </div>
+    
+    <router-outlet></router-outlet>
+  </div>

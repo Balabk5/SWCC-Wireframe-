@@ -112,7 +112,18 @@
                              
                           
                               <td *ngIf="i.status === 'New-request'"><span class="badge badge-info rounded-pill d-inline ">New request</span></td>
-  
+                              <td *ngIf="i.status === 'New-request'">
+                                <label class="dropdown">
+                                  <div class="dd-button">Action</div>
+              
+                                  <input type="checkbox" class="dd-input" id="test" />
+              
+                                  <ul class="dd-menu">
+                                    <li><a (click)="success()">Approve</a></li>
+                                    <li><a (click)="reject()">Reject</a></li>
+                                  </ul>
+                                </label>
+                              </td>
   
                           </tr>
                       </tbody>

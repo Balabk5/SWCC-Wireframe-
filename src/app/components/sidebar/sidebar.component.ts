@@ -12,7 +12,7 @@ export const ROUTES: RouteInfo[] = [
     { path: '/hrnewrequest', title: 'New Request',  icon:'person', class: '' },
     { path: '/hronholdrequest', title: 'On Hold',  icon:'money', class: '' },
     { path: '/hrinprogress', title: 'In progress',  icon:'computer', class: '' },
-    { path: '/hrcompleted', title: 'Completed',  icon:'tick', class: '' },
+    { path: '/hrcompleted', title: 'Completed',  icon:'done', class: '' },
 
 ];
 
