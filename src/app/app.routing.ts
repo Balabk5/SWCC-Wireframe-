@@ -16,6 +16,7 @@ import { RequestLayoutComponent } from './components/layouts/request-layout/requ
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 
+import { ItDashboardLayoutComponent } from './layouts/it-dashboard-layout/it-dashboard-layout.component';
 
 
 const routes: Routes =[
@@ -55,6 +56,14 @@ const routes: Routes =[
     children: [{
       path: '',
       loadChildren: () => import('./layouts/it-layout/it-layout.module').then(m => m.ItLayoutModule)
+    }]
+  },
+  {
+    path: 'itreq-approver',
+    component: ItDashboardLayoutComponent,
+    children: [{
+      path: '',
+      loadChildren: () => import('./layouts/it-dashboard-layout/it-dashboard-layout.module').then(m => m.ItDashboardLayoutModule)
     }]
   },
   // {
