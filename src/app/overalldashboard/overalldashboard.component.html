@@ -1,0 +1,690 @@
+<app-navbaroverall-db></app-navbaroverall-db>
+<div class="main-content overall-db-maincont-mar">
+    <div class="container-fluid">
+        <div class="row">
+          <!-- 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-warning card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">groups</i>
+                        </div>
+                        <p class="card-category">HR</p>
+                        <h3 class="card-title">36/50
+                            <small>Request/Total</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                          <i class="material-icons">date_range</i> Last 24 Hours
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-success card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">account_balance</i>
+                        </div>
+                        <p class="card-category">Finance</p>
+                        <h3 class="card-title">+987
+                          <small>SAR</small>
+                      </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">date_range</i> Last 24 Hours
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-danger card-header-icon">
+                        <div class="card-icon">
+                            <i class="material-icons">production_quantity_limits</i>
+                        </div>
+                        <p class="card-category">Procurement</p>
+                        <h3 class="card-title">+175
+                          <small>Sales</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                          <i class="material-icons">date_range</i> Last 24 Hours
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="card card-stats">
+                    <div class="card-header card-header-info card-header-icon">
+                        <div class="card-icon">
+                          <i class="material-icons">dns</i>
+                        </div>
+                        <p class="card-category">IT</p>
+                        <h3 class="card-title">+3099
+                          <small>Total Requests</small>
+                        </h3>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">update</i> Just Updated
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-chart">
+                    <div class="card-header card-header-success">
+                        <div class="ct-chart" id="dailySalesChart"></div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">HR Daily Progress</h4>
+                        <p class="card-category">
+                            <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span> increase in today progress.</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">access_time</i> updated 4 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="col-md-4">
+                <div class="card card-chart">
+                    <div class="card-header card-header-warning">
+                        <div class="ct-chart" id="websiteViewsChart"></div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">2022 Revenue</h4>
+                        <p class="card-category">Last year Marketing</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">access_time</i> Analytics done 2 week ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-4">
+                <div class="card card-chart">
+                    <div class="card-header card-header-danger">
+                        <div class="ct-chart" id="completedTasksChart"></div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Sales and Procurement</h4>
+                        <p class="card-category">Last Purchase and Sales Analytics</p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="stats">
+                            <i class="material-icons">access_time</i>Order generated 2 days ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for code.."> -->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="card">
+                          <div class="card-header card-header-danger">
+                              <h4 class="card-title ">HR Request Data</h4>
+                              <p class="card-category">All Sub Domains Tickets Data</p>
+                          </div>
+                          <div class="card-body">
+                              <div class="table-responsive">
+                                  
+                                  <table class="table">
+                                      <thead class=" text-primary">
+                                          <th>
+                                              Code
+                                          </th>
+                                          <th>
+                                              Service
+                                          </th>
+                                          <th>
+                                              Description
+                                          </th>
+                                          <th>
+                                              SLA
+                                          </th>
+                                          <th>
+                                              SAR
+                                          </th>
+                                          <th>
+                                              Units
+                                          </th>
+                                          <th>
+                                              Status
+                                          </th>
+                                      </thead>
+                                      <tbody>
+                                          <ng-container>
+                                          <tr>
+                                              <td>
+                                                  SSA-HR-1001-1
+                                              </td>
+                                              <td>
+                                                  Internal Recruitment
+                                              </td>
+                                              <td>
+                                                  Exp Chemical Eng
+                                              </td>
+                                              <td>
+                                                  8 Weeks
+                                              </td>
+                                              <td class="text-primary">
+                                                  13,500
+                                              </td>
+                                              <td>
+                                                  5
+                                              </td>
+                                              <td>
+                                                  Approved
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-HR-1002-1
+                                              </td>
+                                              <td>
+                                                  Employee Learning and Development
+                                              </td>
+                                              <td>
+                                                  PH Rates
+                                              </td>
+                                              <td>
+                                                  5 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  500
+                                              </td>
+                                              <td>
+                                                  Product Team
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-HR-1004-3
+                                              </td>
+                                              <td>
+                                                  Resignation
+                                              </td>
+                                              <td>
+                                                  Package Issue
+                                              </td>
+                                              <td>
+                                                  3 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  3038
+                                              </td>
+                                              <td>
+                                                  1 Employee
+                                              </td>
+                                              <td>
+                                                  On Hold
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-HR-1009-2
+                                              </td>
+                                              <td>
+                                                  Payroll status
+                                              </td>
+                                              <td>
+                                                  Service compensation
+                                              </td>
+                                              <td>
+                                                  5 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  85
+                                              </td>
+                                              <td>
+                                                  1 Employee
+                                              </td>
+                                              <td>
+                                                  Rejected
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-HR-10010-2
+                                              </td>
+                                              <td>
+                                                  Medical Benifits
+                                              </td>
+                                              <td>
+                                                  Health Issues and Insurance
+                                              </td>
+                                              <td>
+                                                  1 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  490
+                                              </td>
+                                              <td>
+                                                  All Employees
+                                              </td>
+                                              <td>
+                                                  Open
+                                              </td>
+                                          </tr>
+                                      </ng-container>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <div class="card card-plain">
+                          <div class="card-header card-header-danger">
+                              <h4 class="card-title mt-0">Finance Request Data</h4>
+                              <p class="card-category">All Sub Domains Tickets Data</p>
+                          </div>
+                          <div class="card-body">
+                              <div class="table-responsive">
+                                  <table class="table table-hover">
+                                      <thead class="">
+                                          <th>
+                                              Code
+                                          </th>
+                                          <th>
+                                              Service
+                                          </th>
+                                          <th>
+                                              Description
+                                          </th>
+                                          <th>
+                                              SAR
+                                          </th>
+                                          <th>
+                                              SLA
+                                          </th>
+                                          <th>
+                                              Units
+                                          </th>
+                                          <th>
+                                              Status
+                                          </th>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>
+                                                  SSA-Finance-3001-1
+                                              </td>
+                                              <td>
+                                                  Payment Invoice
+                                              </td>
+                                              <td>
+                                                  filter spare parts
+                                              </td>
+                                              <td>
+                                                  3000
+                                              </td>
+                                              <td>
+                                                  5 Days
+                                              </td>
+                                              <td>
+                                                  30
+                                              </td>
+                                              <td>
+                                                  Approved
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-Finance-3001-2
+                                              </td>
+                                              <td>
+                                                  Petty Cash
+                                              </td>
+                                              <td>
+                                                  Chemicals
+                                              </td>
+                                              <td>
+                                                  350
+                                              </td>
+                                              <td>
+                                                  5 Days
+                                              </td>
+                                              <td>
+                                                  7
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-Finance-3002-1
+                                              </td>
+                                              <td>
+                                                  Bad Bebt
+                                              </td>
+                                              <td>
+                                                  1 month Water bill
+                                              </td>
+                                              <td>
+                                                  1500
+                                              </td>
+                                              <td>
+                                                  1 Days
+                                              </td>
+                                              <td>
+                                                  1
+                                              </td>
+                                              <td>
+                                                  On Hold
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-Finance-3005-3
+                                              </td>
+                                              <td>
+                                                  Asset trade
+                                              </td>
+                                              <td>
+                                                  Old Mechinary
+                                              </td>
+                                              <td>
+                                                  15,000
+                                              </td>
+                                              <td>
+                                                  1 Days
+                                              </td>
+                                              <td>
+                                                  1
+                                              </td>
+                                              <td>
+                                                  Open
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-Finance-3007-1
+                                              </td>
+                                              <td>
+                                                  Clims
+                                              </td>
+                                              <td>
+                                                  Marine transportation
+                                              </td>
+                                              <td>
+                                                  750
+                                              </td>
+                                              <td>
+                                                  19 Days
+                                              </td>
+                                              <td>
+                                                  1
+                                              </td>
+                                              <td>
+                                                  Open
+                                              </td>
+                                          </tr>                                           
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <div class="card">
+                          <div class="card-header card-header-danger">
+                              <h4 class="card-title ">Procurement & Supply Chain Request Data</h4>
+                              <p class="card-category">All Sub Domains Tickets Data</p>
+                          </div>
+                          <div class="card-body">
+                              <div class="table-responsive">
+                                  <table class="table">
+                                      <thead class=" text-primary">
+                                          <th>
+                                              Code
+                                          </th>
+                                          <th>
+                                              Service
+                                          </th>
+                                          <th>
+                                              Description
+                                          </th>
+                                          <th>
+                                              SLA
+                                          </th>
+                                          <th>
+                                              SAR
+                                          </th>
+                                          <th>
+                                              Units
+                                          </th>
+                                          <th>
+                                              Status
+                                          </th>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>
+                                                  SSA-P&SCM-2001-2
+                                              </td>
+                                              <td>
+                                                  Foreign Purchase
+                                              </td>
+                                              <td>
+                                                  Chemicals
+                                              </td>
+                                              <td>
+                                                  120 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  350
+                                              </td>
+                                              <td>
+                                                  7
+                                              </td>
+                                              <td>
+                                                  Open
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-P&SCM-2001-3
+                                              </td>
+                                              <td>
+                                                  PO Controlling
+                                              </td>
+                                              <td>
+                                                  Spare Parts
+                                              </td>
+                                              <td>
+                                                  14 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  3000
+                                              </td>
+                                              <td>
+                                                  30
+                                              </td>
+                                              <td>
+                                                  Approved
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-P&SCM-2003-2
+                                              </td>
+                                              <td>
+                                                  Tender Creationand Evaluation
+                                              </td>
+                                              <td>
+                                                  1 month Water Supply
+                                              </td>
+                                              <td>
+                                                  25 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  1500
+                                              </td>
+                                              <td>
+                                                  1 Area
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-P&SCM-2004-1
+                                              </td>
+                                              <td>
+                                                  Direct Purchase
+                                              </td>
+                                              <td>
+                                                  Old Mechineray
+                                              </td>
+                                              <td>
+                                                  3 days
+                                              </td>
+                                              <td class="text-primary">
+                                                  3000
+                                              </td>
+                                              <td>
+                                                  1
+                                              </td>
+                                              <td>
+                                                  Approved
+                                              </td>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <div class="card card-plain">
+                          <div class="card-header card-header-danger">
+                              <h4 class="card-title mt-0">IT</h4>
+                              <p class="card-category">All Sub Domains Tickets Data</p>
+                          </div>
+                          <div class="card-body">
+                              <div class="table-responsive">
+                                  <table class="table table-hover">
+                                      <thead class="">
+                                          <th>
+                                              Code
+                                          </th>
+                                          <th>
+                                              Service
+                                          </th>
+                                          <th>
+                                              Requested By
+                                          </th>
+                                          <th>
+                                              SAR
+                                          </th>
+                                          <th>
+                                              SLA
+                                          </th>
+                                          <th>
+                                              Requests
+                                          </th>
+                                          <th>
+                                              Status
+                                          </th>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>
+                                                  SSA-IT-4001-1
+                                              </td>
+                                              <td>
+                                                  CorporateServices
+                                              </td>
+                                              <td>
+                                                  HR
+                                              </td>
+                                              <td>
+                                                  94
+                                              </td>
+                                              <td>
+                                                  2 Hours
+                                              </td>
+                                              <td>
+                                                  5
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-IT-4003-2
+                                              </td>
+                                              <td>
+                                                  Communication Services
+                                              </td>
+                                              <td>
+                                                  Finance
+                                              </td>
+                                              <td>
+                                                  5%
+                                              </td>
+                                              <td>
+                                                  2 Hours
+                                              </td>
+                                              <td>
+                                                  5
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>
+                                          <tr>
+                                              <td>
+                                                  SSA-IT-4002-2
+                                              </td>
+                                              <td>
+                                                  Central IT Services
+                                              </td>
+                                              <td>
+                                                  Procurement & Supply Chain
+                                              </td>
+                                              <td>
+                                                  500
+                                              </td>
+                                              <td>
+                                                  2 Days
+                                              </td>
+                                              <td>
+                                                  3
+                                              </td>
+                                              <td>
+                                                  In Progress
+                                              </td>
+                                          </tr>                                        
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </div>

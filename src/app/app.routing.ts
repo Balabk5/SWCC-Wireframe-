@@ -19,6 +19,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { ItDashboardLayoutComponent } from './layouts/it-dashboard-layout/it-dashboard-layout.component';
 import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
+import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
 
 
 const routes: Routes =[
@@ -37,7 +38,12 @@ const routes: Routes =[
     path: 'login',
     component: LoginPageComponent
     
-  },  
+  },
+  {
+    path: 'OverallDashboard',
+    component: OveralldashboardComponent
+    
+  },    
   {
     path: 'home',
     component: HomepageComponent

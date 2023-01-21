@@ -85,6 +85,7 @@
             "Actions": "Reject"
 
         },
+        
         {
             "id": 7,
             "request-name": "External Employment",
@@ -92,13 +93,7 @@
             "date": "12-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "Completed",
-            "request-id": 7,
-            "due-date": "10-01-2023",
-            "approved-date": "26-12-2022",
-            "Actions": "Accept"
-
-
+            "status": "New-request"
         },
         {
             "id": 8,
@@ -107,12 +102,7 @@
             "date": "12-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "In Progress",
-            "request-id": 8,
-            "due-date": "12-02-2023",
-            "approved-date": "MM-DD-YYYY",
-            "Actions": "Wait"
-
+            "status": "New-request"
         },
         {
             "id": 9,
@@ -121,12 +111,7 @@
             "date": "13-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "In Progress",
-            "request-id": 9,
-            "due-date": "12-02-2023",
-            "approved-date": "MM-DD-YYYY",
-            "Actions": "Wait"
-
+            "status": "New-request"
         },
         {
             "id": 10,
@@ -135,103 +120,7 @@
             "date": "13-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "In Progress",
-            "request-id": 10,
-            "due-date": "12-02-2023",
-            "approved-date": "MM-DD-YYYY",
-            "Actions": "Wait"
-
-        },
-        
-        {
-            "id": 11,
-            "request-name": "Internal Employment",
-            "approver-name": "Ekram",
-            "date": "10-01-2023",
-            "sla-duration": "8",
-            "service-charge": "13500",
-            "status": "Completed"
-        },
-        {
-            "id": 12,
-            "request-name": "Internal Employment",
-            "approver-name": "Ekram",
-            "date": "10-01-2023",
-            "sla-duration": "8",
-            "service-charge": "13500",
-            "status": "Onhold"
-        },
-        {
-            "id": 13,
-            "request-name": "External Employment",
-            "approver-name": "Ekram",
-            "date": "11-01-2023",
-            "sla-duration": "12",
-            "service-charge": "13500",
-            "status": "Completed"
-        },
-        {
-            "id": 14,
-            "request-name": "Internal Employment",
-            "approver-name": "Ekram",
-            "date": "11-01-2023",
-            "sla-duration": "8",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 15,
-            "request-name": "External Employment",
-            "approver-name": "Ekram",
-            "date": "11-01-2023",
-            "sla-duration": "12",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 16,
-            "request-name": "Internal Employment",
-            "approver-name": "Ekram",
-            "date": "12-01-2023",
-            "sla-duration": "8",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 17,
-            "request-name": "External Employment",
-            "approver-name": "Ekram",
-            "date": "12-01-2023",
-            "sla-duration": "12",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 18,
-            "request-name": "Internal Employment",
-            "approver-name": "Ekram",
-            "date": "12-01-2023",
-            "sla-duration": "8",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 19,
-            "request-name": "External Employment",
-            "approver-name": "Ekram",
-            "date": "13-01-2023",
-            "sla-duration": "12",
-            "service-charge": "13500",
-            "status": "New-request"
-        },
-        {
-            "id": 20,
-            "request-name": "External Employment",
-            "approver-name": "Ekram",
-            "date": "13-01-2023",
-            "sla-duration": "12",
-            "service-charge": "13500",
-            "status": "New-request"
+            "status": "In Progress"
         }
     ],
     "finance": [

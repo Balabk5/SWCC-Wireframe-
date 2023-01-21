@@ -43,6 +43,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
+import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
+import { NavbaroverallDBComponent } from './navbaroverall-db/navbaroverall-db.component';
 
 @NgModule({
   imports: [
@@ -95,6 +97,8 @@ import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue
       LoginPageComponent,
       RequesthomepageComponent,
       ServiceCatalogueComponent,
+      OveralldashboardComponent,
+      NavbaroverallDBComponent,
 
   ],
   providers: [],
