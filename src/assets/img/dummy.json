@@ -7,7 +7,13 @@
             "date": "10-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "Completed"
+            "status": "Completed",
+            "request-id": 1,
+            "due-date": "10-01-2023",
+            "approved-date": "22-12-2022",
+            "Actions": "Accept"
+
+
         },
         {
             "id": 2,
@@ -16,7 +22,12 @@
             "date": "10-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "Onhold"
+            "status": "Onhold",
+            "request-id": 2,
+            "due-date": "25-01-2023",
+            "approved-date": "10-01-2023",
+            "Actions": "Reject"
+
         },
         {
             "id": 3,
@@ -25,7 +36,12 @@
             "date": "11-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "Completed"
+            "status": "Completed",
+            "request-id": 3,
+            "due-date": "10-01-2023",
+            "approved-date": "22-12-2022",
+            "Actions": "Accept"
+
         },
         {
             "id": 4,
@@ -34,7 +50,12 @@
             "date": "11-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "Onhold"
+            "status": "Onhold",
+            "request-id": 4,
+            "due-date": "25-01-2023",
+            "approved-date": "10-01-2023",
+            "Actions": "Reject"
+
         },
         {
             "id": 5,
@@ -43,7 +64,12 @@
             "date": "11-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "Completed"
+            "status": "Completed",
+            "request-id": 5,
+            "due-date": "10-01-2023",
+            "approved-date": "22-12-2022",
+            "Actions": "Accept"
+
         },
         {
             "id": 6,
@@ -52,7 +78,12 @@
             "date": "12-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "Onhold"
+            "status": "Onhold",
+            "request-id": 6,
+            "due-date": "30-01-2023",
+            "approved-date": "14-01-2023",
+            "Actions": "Reject"
+
         },
         {
             "id": 7,
@@ -61,7 +92,13 @@
             "date": "12-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "Completed"
+            "status": "Completed",
+            "request-id": 7,
+            "due-date": "10-01-2023",
+            "approved-date": "26-12-2022",
+            "Actions": "Accept"
+
+
         },
         {
             "id": 8,
@@ -70,7 +107,12 @@
             "date": "12-01-2023",
             "sla-duration": "8",
             "service-charge": "13500",
-            "status": "In Progress"
+            "status": "In Progress",
+            "request-id": 8,
+            "due-date": "12-02-2023",
+            "approved-date": "MM-DD-YYYY",
+            "Actions": "Wait"
+
         },
         {
             "id": 9,
@@ -79,7 +121,12 @@
             "date": "13-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "In Progress"
+            "status": "In Progress",
+            "request-id": 9,
+            "due-date": "12-02-2023",
+            "approved-date": "MM-DD-YYYY",
+            "Actions": "Wait"
+
         },
         {
             "id": 10,
@@ -88,7 +135,12 @@
             "date": "13-01-2023",
             "sla-duration": "12",
             "service-charge": "13500",
-            "status": "In Progress"
+            "status": "In Progress",
+            "request-id": 10,
+            "due-date": "12-02-2023",
+            "approved-date": "MM-DD-YYYY",
+            "Actions": "Wait"
+
         }
     ],
     "finance": [
