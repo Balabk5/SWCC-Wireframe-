@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FinanceRequestComponent implements OnInit {
   first_name: string = '';
 
-  designation: string = '';
+  designation: string = 'Procurement manager';
 
   invoiceno: string = '';
 

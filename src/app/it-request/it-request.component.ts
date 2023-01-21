@@ -7,7 +7,12 @@ import Swal from 'sweetalert2';
   styleUrls: ['./it-request.component.scss']
 })
 export class ItRequestComponent implements OnInit {
-
+  searchValue:string = ''
+  searchValue1:string = ''
+  searchValue2:string = 'eg., SAP SF'
+  searchValue3:string = ''
+  searchValue4:string = ''
+  searchValue5:string = ''
   constructor() { }
 
   ngOnInit(): void {
@@ -36,6 +41,11 @@ export class ItRequestComponent implements OnInit {
           'Request has been sent to IT Team',
           'success'
         )
+        this.searchValue = null;
+          this.searchValue1 = null;
+          this.searchValue2 = 'eg., SAP SF';
+          this.searchValue3 = null;
+          this.searchValue4 = null;
       } else if (
         /* Read more about handling dismissals below */
         result.dismiss === Swal.DismissReason.cancel

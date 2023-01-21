@@ -7,7 +7,13 @@ import Swal from 'sweetalert2';
   styleUrls: ['./finance-create-request.component.scss']
 })
 export class FinanceCreateRequestComponent implements OnInit {
-
+  searchValue1:string = ''
+  searchValue2:string = 'eg., Procurement Manager'
+  searchValue3:string = ''
+  searchValue4:string = ''
+  searchValue5:string = ''
+  searchValue6:string = ''
+  searchValue7:string = ''
   constructor() { }
 
   ngOnInit(): void {
@@ -36,6 +42,12 @@ export class FinanceCreateRequestComponent implements OnInit {
           'Request has been sent to Finance Team',
           'success'
         )
+          this.searchValue1 = null;
+          this.searchValue2 = 'eg., Procurement Manager';
+          this.searchValue3 = null;
+          this.searchValue4 = null;
+          this.searchValue5 = null;
+          this.searchValue6 = null;
       } else if (
         /* Read more about handling dismissals below */
         result.dismiss === Swal.DismissReason.cancel
