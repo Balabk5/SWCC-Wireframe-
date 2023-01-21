@@ -15,6 +15,7 @@ import { HrNewRequestsComponent } from './hr-new-requests/hr-new-requests.compon
 import { HrOnholdRequestsComponent } from './hr-onhold-requests/hr-onhold-requests.component';
 import { HrCompletedRequestsComponent } from './hr-completed-requests/hr-completed-requests.component';
 import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inprogress-requests.component';
+import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component';
 
 @NgModule({
   imports: [
@@ -37,6 +38,7 @@ import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inpro
     HrOnholdRequestsComponent,
     HrCompletedRequestsComponent,
     HrInprogressRequestsComponent,
+    HrNewRequestComponent,
 
   ],
   providers: [],

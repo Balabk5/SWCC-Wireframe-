@@ -97,40 +97,22 @@
                           <th>
                               Status
                           </th>
-                          <th>action</th>
                       </thead>
                       <tbody>
                           <tr *ngFor="let i of data">
                               
-                              <td *ngIf="i.status === 'Completed'">{{i.id}}</td>
-                              <td *ngIf="i.status === 'Completed'">                                  {{i["request-name"]}}
+                              <td *ngIf="i.status === 'New-request'">{{i.id}}</td>
+                              <td *ngIf="i.status === 'New-request'">                                  {{i["request-name"]}}
                             </td>
-                            <td *ngIf="i.status === 'Completed'">{{i["approver-name"]}}</td>
-                            <td *ngIf="i.status === 'Completed'">{{i.date}}</td>
-                            <td *ngIf="i.status === 'Completed'">{{i["sla-duration"]}}</td>
-                            <td *ngIf="i.status === 'Completed'">{{i["service-charge"]}}</td>
+                            <td *ngIf="i.status === 'New-request'">{{i["approver-name"]}}</td>
+                            <td *ngIf="i.status === 'New-request'">{{i.date}}</td>
+                            <td *ngIf="i.status === 'New-request'">{{i["sla-duration"]}}</td>
+                            <td *ngIf="i.status === 'New-request'">{{i["service-charge"]}}</td>
                              
                              
                           
-                            <td *ngIf="i.status === 'Completed'"><span class="badge badge-success rounded-pill d-inline ">Completed</span></td>
-                            <td><label class="dropdown">
-
-                                <div class="dd-button">
-                                  Action
-                                </div>
-                              
-                                <input type="checkbox" class="dd-input" id="test">
-                              
-                                <ul class="dd-menu">
-                                  <li><a (click)="success()">Approve</a> </li>
-                                  <li><a (click)="reject()">Reject</a> </li>
-                                  
-                                  
-                                  
-                                  
-                                </ul>
-                                
-                              </label> </td>
+                              <td *ngIf="i.status === 'New-request'"><span class="badge badge-info rounded-pill d-inline ">New request</span></td>
+  
   
                           </tr>
                       </tbody>
