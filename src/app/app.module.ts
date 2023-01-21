@@ -29,6 +29,7 @@ import { FinanceCreateRequestComponent } from './finance-create-request/finance-
 
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,7 @@ import { MatSortModule } from '@angular/material/sort';
     AppRoutingModule,
     MatCardModule,
     MatFormFieldModule,
-    MatDatepickerModule
+    MatDatepickerModule,
     MatTableModule,
     MatSortModule
   ],
@@ -65,6 +66,7 @@ import { MatSortModule } from '@angular/material/sort';
     FinancePreviousRequestComponent,
     FinanceCreateRequestComponent,
 
+    HrNewRequestComponent,
 
   ],
   providers: [],

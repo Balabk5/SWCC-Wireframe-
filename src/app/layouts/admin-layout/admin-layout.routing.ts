@@ -15,7 +15,8 @@ import { JobrequestComponent } from 'app/jobrequest/jobrequest.component';
 import { HrOnholdRequestsComponent } from 'app/hr-onhold-requests/hr-onhold-requests.component';
 import { HrInprogressRequestsComponent } from 'app/hr-inprogress-requests/hr-inprogress-requests.component';
 import { HrCompletedRequestsComponent } from 'app/hr-completed-requests/hr-completed-requests.component';
- 
+import { HrNewRequestComponent } from 'app/hr-new-request/hr-new-request.component';
+
 
 export const AdminLayoutRoutes: Routes = [
     // {
@@ -74,6 +75,7 @@ export const AdminLayoutRoutes: Routes = [
     { path:'hronholdrequest', component:HrOnholdRequestsComponent },
     { path:'hrinprogress', component:HrInprogressRequestsComponent },
     { path:'hrcompleted', component:HrCompletedRequestsComponent },
+    { path:'hrnewrequest', component:HrNewRequestComponent },
 
     
 ];

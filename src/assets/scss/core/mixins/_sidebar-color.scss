@@ -11,7 +11,7 @@
             &.active,
             &:hover{
                 [data-toggle="collapse"]{
-                  color: #0066cd;
+                  color: $font-color;
                     i{
                         color: rgba($font-color, .8);
                     }
@@ -52,7 +52,7 @@
 @mixin set-background-color-button($color){
 
     li.active > a{
-        background-color: $color;
+        background-color: #0066cd;
         @include shadow-big-color($color);
     }
 }
