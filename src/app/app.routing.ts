@@ -4,7 +4,6 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
-import { FinanceRequestComponent } from './finance-request/finance-request.component';
 
 const routes: Routes =[
   
@@ -12,19 +11,20 @@ const routes: Routes =[
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  }, {
+  },
+  {
+    path: 'approver-screen',
+    component: ApproverScreenComponent
+    
+  },
+   {
     path: '',
     component: AdminLayoutComponent,
     children: [{
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
-  },
-  {
-    path:'financerequest',
-    component: FinanceRequestComponent,
   }
- 
 ];
 
 @NgModule({
