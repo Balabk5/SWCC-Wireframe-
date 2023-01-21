@@ -11,11 +11,15 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
 import { FinanceComponent } from 'app/finance/finance.component';
 import { ItComponent } from 'app/it/it.component';
 import { ProcurementComponent } from 'app/procurement/procurement.component';
+
+import { ItRequestComponent } from 'app/it-request/it-request.component';
+
 import { JobrequestComponent } from 'app/jobrequest/jobrequest.component';
 import { HrOnholdRequestsComponent } from 'app/hr-onhold-requests/hr-onhold-requests.component';
 import { HrInprogressRequestsComponent } from 'app/hr-inprogress-requests/hr-inprogress-requests.component';
 import { HrCompletedRequestsComponent } from 'app/hr-completed-requests/hr-completed-requests.component';
 import { HrNewRequestComponent } from 'app/hr-new-request/hr-new-request.component';
+
 
 
 export const AdminLayoutRoutes: Routes = [
@@ -72,10 +76,13 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'finance', component:FinanceComponent },
     { path: 'it', component:ItComponent },
     { path:'procurement-supplychain', component:ProcurementComponent },
+
+    { path:'it-request', component:ItRequestComponent }
+
     { path:'hronholdrequest', component:HrOnholdRequestsComponent },
     { path:'hrinprogress', component:HrInprogressRequestsComponent },
     { path:'hrcompleted', component:HrCompletedRequestsComponent },
     { path:'hrnewrequest', component:HrNewRequestComponent },
 
-    
+ 
 ];

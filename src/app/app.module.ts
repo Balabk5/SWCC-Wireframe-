@@ -10,6 +10,10 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { ItComponent } from './it/it.component';
 import { FinanceComponent } from './finance/finance.component';
 import { ProcurementComponent } from './procurement/procurement.component';
+import { ItRequestComponent } from './it-request/it-request.component';
+import { ItLayoutComponent } from './layouts/it-layout/it-layout.component';
+import { ItComponentModule } from './it-component/it-component.module';
+import { ItRequestListComponent } from './it-request-list/it-request-list.component';
 
 import { FinanceRequestComponent } from './finance-request/finance-request.component';
 import {MatCardModule} from '@angular/material/card';
@@ -40,18 +44,24 @@ import { HrNewRequestComponent } from './hr-new-request/hr-new-request.component
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
+
+    ItComponentModule
+
     MatCardModule,
     MatFormFieldModule,
     MatDatepickerModule,
     MatTableModule,
     MatSortModule
+
   ],
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    ItComponent,
+    ItLayoutComponent,
     FinanceComponent,
     ProcurementComponent,
+    ItRequestComponent,
+    ItRequestListComponent,
 
     FinanceRequestComponent,
 
