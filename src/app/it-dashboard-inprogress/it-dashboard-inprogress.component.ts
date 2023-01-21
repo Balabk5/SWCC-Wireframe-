@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from 'app/api.service';
 
 @Component({
   selector: 'app-it-dashboard-inprogress',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ItDashboardInprogressComponent implements OnInit {
 
-  constructor() { }
+  data:{}
+  constructor(private apiservice:ApiService) { }
 
   ngOnInit(): void {
+    this.data = this.apiservice.getItData()
+    console.log(this.data)
   }
 
 }

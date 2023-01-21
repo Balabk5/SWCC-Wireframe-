@@ -418,93 +418,120 @@
     "it": [
         {
             "id": 1,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Completed"
         },
         {
             "id": 2,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Completed"
         },
         {
             "id": 3,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Onhold"
         },
         {
             "id": 4,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Completed"
         },
         {
             "id": 5,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "In Progress"
         },
         {
             "id": 6,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "In Progress"
         },
         {
             "id": 7,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Onhold"
         },
         {
             "id": 8,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Completed"
         },
         {
             "id": 9,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "In Progress"
         },
         {
             "id": 10,
-            "request-name": "System Access",
+            "request-name": "Application Access",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "",
-            "service-charge": "",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
             "status": "Onhold"
+        },
+        {
+            "id": 11,
+            "request-name": "Application Access",
+            "approver-name": "Ekram",
+            "date": "21-01-2023",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
+            "status": "New-request"
+        },
+        {
+            "id": 12,
+            "request-name": "Application Access",
+            "approver-name": "Ekram",
+            "date": "21-01-2023",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
+            "status": "New-request"
+        },
+        {
+            "id": 13,
+            "request-name": "Application Access",
+            "approver-name": "Ekram",
+            "date": "21-01-2023",
+            "sla-duration": "2 hours",
+            "service-charge": 94.00,
+            "status": "New-request"
         }
     ],
     "procurement": [
