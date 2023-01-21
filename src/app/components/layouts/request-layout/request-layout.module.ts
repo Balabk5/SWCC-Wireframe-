@@ -10,6 +10,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MaterialTableComponent } from './material-table/material-table.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   declarations: [
   
-    DashboardComponent
+    DashboardComponent,
+        MaterialTableComponent
   ]
 })
 

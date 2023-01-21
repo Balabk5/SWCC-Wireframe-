@@ -15,6 +15,8 @@ import { HrNewRequestsComponent } from './hr-new-requests/hr-new-requests.compon
 import { HrOnholdRequestsComponent } from './hr-onhold-requests/hr-onhold-requests.component';
 import { HrCompletedRequestsComponent } from './hr-completed-requests/hr-completed-requests.component';
 import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inprogress-requests.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   imports: [
@@ -25,6 +27,8 @@ import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inpro
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
+    MatTableModule,
+    MatSortModule
   ],
   declarations: [
     AppComponent,

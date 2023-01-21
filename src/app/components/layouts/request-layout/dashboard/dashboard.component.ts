@@ -8,12 +8,14 @@ import { ApiService } from 'app/api.service';
 })
 export class DashboardComponent implements OnInit {
   data:any;
+  enteredSearchText:string="";
 
 
   constructor(private apiservice:ApiService) { }
 
   ngOnInit(): void {
     this.data = this.apiservice.getHrdata()
+    console.log(this.data)
   }
 
 }
