@@ -16,7 +16,7 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <button type="button" class="btn btn-outline-info home__service_btn">Service Catalogue</button>
+    <button [routerLink]="'/service-catalogue'" type="button" class="btn btn-outline-info home__service_btn">Service Catalogue</button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <!-- <li class="nav-item">
@@ -73,7 +73,7 @@
 >
   <div class="row justify-content-md-center">
     <div class="col-lg-3">
-      <a href="/human-resource" class="text-decoration-none">
+      <a [routerLink]="'/hr-approver'" class="text-decoration-none">
         <div class="card bg-dark">
           <img
             src="../../assets/img/hp-img4.jpg"
@@ -90,10 +90,27 @@
       >
     </div>
     <div class="col-lg-3">
-      <a href="/finance" class="text-decoration-none">
+      <a [routerLink]="'/it-approver'" class="text-decoration-none">
         <div class="card bg-dark">
           <img
           src="../../assets/img/hp-img2.jpg"
+            height="150"
+            class="card-img-top"
+            alt="IT Services"
+          />
+          <div class="card-body">
+            <h4 class="card-title text-center" style="color: white">
+              IT Services
+            </h4>
+          </div>
+        </div></a
+      >
+    </div>
+    <div class="col-lg-3">
+      <a href="/finance" class="text-decoration-none">
+        <div class="card bg-dark">
+          <img
+          src="../../assets/img/hp-img3.jpg"
             height="150"
             class="card-img-top"
             alt="Finance"
@@ -108,7 +125,7 @@
       <a href="/procurement" class="text-decoration-none">
         <div class="card bg-dark">
           <img
-          src="../../assets/img/hp-img3.jpg"
+          src="../../assets/img/hp-img1.jpg"
             height="150"
             class="card-img-top"
             alt="Procurement & Supply Chain"
@@ -121,23 +138,7 @@
         </div></a
       >
     </div>
-    <div class="col-lg-3">
-      <a href="/it-service" class="text-decoration-none">
-        <div class="card bg-dark">
-          <img
-          src="../../assets/img/hp-img1.jpg"
-            height="150"
-            class="card-img-top"
-            alt="IT Services"
-          />
-          <div class="card-body">
-            <h4 class="card-title text-center" style="color: white">
-              IT Services
-            </h4>
-          </div>
-        </div></a
-      >
-    </div>
+    
     
   </div>
   

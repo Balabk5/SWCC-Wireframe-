@@ -7,7 +7,12 @@ import { ItDashboardNewComponent } from 'app/it-dashboard-new/it-dashboard-new.c
 import { ItDashboardOnholdComponent } from 'app/it-dashboard-onhold/it-dashboard-onhold.component';
 
 const routes: Routes = [
-  {path:'itdashboard',component:ItDashboardMainComponent},
+  {
+    path: '',
+    redirectTo: 'dashboard',
+    pathMatch: 'full',
+  },
+  {path:'dashboard',component:ItDashboardMainComponent},
   {path: 'itonhold', component:ItDashboardOnholdComponent},
   {path: 'itinprogress', component: ItDashboardInprogressComponent},
   {path: 'itnew', component: ItDashboardNewComponent},

@@ -42,6 +42,7 @@ import { ItDashboardInprogressComponent } from './it-dashboard-inprogress/it-das
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { RequesthomepageComponent } from './requesthomepage/requesthomepage.component';
+import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 
 @NgModule({
   imports: [
@@ -93,6 +94,7 @@ import { RequesthomepageComponent } from './requesthomepage/requesthomepage.comp
       HomepageComponent,
       LoginPageComponent,
       RequesthomepageComponent,
+      ServiceCatalogueComponent,
 
   ],
   providers: [],
