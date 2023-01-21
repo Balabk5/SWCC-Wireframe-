@@ -18,6 +18,8 @@
                     type="text"
                     class="form-control"
                     autocomplete="off"
+                    placeholder="eg., 0010"
+                    [(ngModel)]="searchValue1"
                   />
                 </div>
                 <div class="marginRight"></div>
@@ -34,8 +36,8 @@
                     aria-describedby="emailHelp"
                     placeholder="Enter System Name"
                   /> -->
-                  <select class="form-control" id="inputGroupSelect01">
-                    <option selected></option>
+                  <select [(ngModel)]="searchValue2" class="form-control" id="inputGroupSelect01"  >
+                    <option  selected>eg., Procurement Manager</option>
                     <option value="1">Procurement Manager</option>
                     <option value="2">Manager - Project implementation</option>
                     <option value="3">Manager - Operations</option>
@@ -51,6 +53,8 @@
                     <input
                     type="text"
                     class="form-control"
+                    placeholder="eg., 2134"
+                    [(ngModel)]="searchValue3"
                   />
                 </div>
                 <div class="marginRight"></div>
@@ -71,6 +75,7 @@
                   type="date" 
                   id="invoicedate"
                   class="form-control"
+                  [(ngModel)]="searchValue4"
                   >
                 </div>
                 <div class="marginRight"></div>
@@ -83,6 +88,8 @@
                     <input
                     type="text"
                     class="form-control"
+                    placeholder="eg., abbad"
+                    [(ngModel)]="searchValue5"
                     >
                     <!-- <input
                     type="text"
@@ -101,6 +108,8 @@
                     <input
                     type="text"
                     class="form-control"
+                    placeholder="eg., 500"
+                    [(ngModel)]="searchValue6"
                     >
                     <!-- <input
                     type="text"
