@@ -9,6 +9,8 @@ import { ApiService } from 'app/api.service';
 export class ItRequestListComponent implements OnInit {
 
   data: any;
+  
+  enteredSearchText:string="";
   constructor(private apiservice:ApiService) { }
 
   ngOnInit() {

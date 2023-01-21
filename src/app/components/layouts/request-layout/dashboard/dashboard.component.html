@@ -8,12 +8,15 @@
       <div class="card-body">
         <div class="table-responsive">
           <div class="input-div">
-            <select class="hr__dashboard_select" [(ngModel)]="enteredSearchText">
-              <option value="">All</option>
-              <option value="Onhold">On Hold</option>
-              <option value="Completed">Completed</option>
-              <option value="In Progress">In Progress</option>
-            </select>
+            
+            <div class="select">
+              <select [(ngModel)]="enteredSearchText">
+                <option value="">All</option>
+                <option value="Onhold">On Hold</option>
+                <option value="Completed">Completed</option>
+                <option value="In Progress">In Progress</option>
+              </select>
+            </div>
           </div>
           <table class="table">
             <thead class="text-primary">
@@ -30,8 +33,7 @@
                 <!-- <div>{{enteredSearchText}},{{i.status}},{{i.status === enteredSearchText}}</div> -->
                 <tr
                   *ngIf="
-                    enteredSearchText === '' ||
-                    (i.status === enteredSearchText)
+                    enteredSearchText === '' || i.status === enteredSearchText
                   "
                 >
                   <td>

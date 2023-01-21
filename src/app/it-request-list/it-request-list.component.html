@@ -6,6 +6,17 @@
           </div>
           <div class="card-body">
               <div class="table-responsive">
+                <div class="input-div">
+            
+                    <div class="select">
+                      <select [(ngModel)]="enteredSearchText">
+                        <option value="">All</option>
+                        <option value="On hold">On hold</option>
+                        <option value="Completed">Completed</option>
+                        <option value="In Progress">In Progress</option>
+                      </select>
+                    </div>
+                  </div>
                   <table class="table">
                       <thead class=" text-primary">
                           <th>
@@ -25,7 +36,12 @@
                           </th>
                       </thead>
                       <tbody>
-                          <tr *ngFor="let i of data">
+                        <ng-container *ngFor="let i of data">
+                            <tr
+                            *ngIf="
+                              enteredSearchText === '' || i.status === enteredSearchText
+                            "
+                          >
                               <td>
                                   {{i.id}}
                               </td>
@@ -44,7 +60,9 @@
   
   
                           </tr>
+                        </ng-container>
                       </tbody>
+                    
                   </table>
               </div>
           </div>

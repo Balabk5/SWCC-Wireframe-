@@ -148,7 +148,7 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "8M",
+            "sla-duration": "8",
             "service-charge": "13500",
             "status": "Completed"
         },
@@ -157,7 +157,7 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "10-01-2023",
-            "sla-duration": "8M",
+            "sla-duration": "8",
             "service-charge": "13500",
             "status": "Onhold"
         },
@@ -166,7 +166,7 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "12M",
+            "sla-duration": "12",
             "service-charge": "13500",
             "status": "Completed"
         },
@@ -175,7 +175,7 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "8M",
+            "sla-duration": "8",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -184,7 +184,7 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "11-01-2023",
-            "sla-duration": "12M",
+            "sla-duration": "12",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -193,7 +193,7 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "8M",
+            "sla-duration": "8",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -202,7 +202,7 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "12M",
+            "sla-duration": "12",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -211,7 +211,7 @@
             "request-name": "Internal Employment",
             "approver-name": "Ekram",
             "date": "12-01-2023",
-            "sla-duration": "8M",
+            "sla-duration": "8",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -220,7 +220,7 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "13-01-2023",
-            "sla-duration": "12M",
+            "sla-duration": "12",
             "service-charge": "13500",
             "status": "New-request"
         },
@@ -229,7 +229,7 @@
             "request-name": "External Employment",
             "approver-name": "Ekram",
             "date": "13-01-2023",
-            "sla-duration": "12M",
+            "sla-duration": "12",
             "service-charge": "13500",
             "status": "New-request"
         }
