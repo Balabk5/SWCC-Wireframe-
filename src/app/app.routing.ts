@@ -14,6 +14,8 @@ import { JobrequestComponent } from './jobrequest/jobrequest.component';
 import { HrRequestDashboardComponent } from './components/hr-request-dashboard/hr-request-dashboard.component';
 import { RequestLayoutComponent } from './components/layouts/request-layout/request-layout.component';
 import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
+import { HomepageComponent } from './homepage/homepage.component';
+
 
 
 const routes: Routes =[
