@@ -11,6 +11,10 @@ import { ItComponent } from './it/it.component';
 import { FinanceComponent } from './finance/finance.component';
 import { ProcurementComponent } from './procurement/procurement.component';
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
+import { HrNewRequestsComponent } from './hr-new-requests/hr-new-requests.component';
+import { HrOnholdRequestsComponent } from './hr-onhold-requests/hr-onhold-requests.component';
+import { HrCompletedRequestsComponent } from './hr-completed-requests/hr-completed-requests.component';
+import { HrInprogressRequestsComponent } from './hr-inprogress-requests/hr-inprogress-requests.component';
 
 @NgModule({
   imports: [
@@ -29,6 +33,10 @@ import { JobrequestComponent } from './jobrequest/jobrequest.component';
     FinanceComponent,
     ProcurementComponent,
     JobrequestComponent,
+    HrNewRequestsComponent,
+    HrOnholdRequestsComponent,
+    HrCompletedRequestsComponent,
+    HrInprogressRequestsComponent,
 
   ],
   providers: [],
