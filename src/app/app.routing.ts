@@ -5,6 +5,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { JobrequestComponent } from './jobrequest/jobrequest.component';
+import { HrRequestDashboardComponent } from './components/hr-request-dashboard/hr-request-dashboard.component';
+import { RequestLayoutComponent } from './components/layouts/request-layout/request-layout.component';
 
 const routes: Routes =[
   {
@@ -19,7 +21,16 @@ const routes: Routes =[
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
   },
-  // { path:'jobrequest', component:JobrequestComponent }
+  {path:'hr-request',component:HrRequestDashboardComponent},
+  {
+    path:'hr-request',
+    component:RequestLayoutComponent,
+    children:[{
+        path:'',
+        loadChildren: ()=>import('./components/layouts/request-layout/request-layout.module').then(m=>m.RequestLayoutModule)
+      }]
+    
+  }
 ];
 
 @NgModule({
