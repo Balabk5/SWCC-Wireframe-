@@ -25,7 +25,7 @@
               <th>Approver Name</th>
               <th>Date</th>
               <th>SLA Duration</th>
-              <th>Service Charge</th>
+              <th>Service Charge (SAR)</th>
               <th>Status</th>
             </thead>
             <tbody>
@@ -68,6 +68,11 @@
                   <td *ngIf="i.status === 'In Progress'">
                     <span class="badge badge-primary rounded-pill d-inline"
                       >In Progress</span
+                    >
+                  </td>
+                  <td *ngIf="i.status === 'New-request'">
+                    <span class="badge badge-info rounded-pill d-inline"
+                      >New Request</span
                     >
                   </td>
                 </tr>
