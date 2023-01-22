@@ -59,7 +59,7 @@ export class LoginPageComponent implements OnInit {
   loginClicked(){
     if (this.loginForm.value.user == "approver" && this.loginForm.value.Password=="1234" ) {
       this.router.navigate(['/home']);
-    } else if (this.loginForm.value.user == "requester" && this.loginForm.value.Password=="1234" ) {
+    } else if (this.loginForm.value.user == "requestor" && this.loginForm.value.Password=="1234" ) {
       this.router.navigate(['/homepage']);
     }
     else {
