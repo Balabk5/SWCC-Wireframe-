@@ -21,6 +21,7 @@ import { RequesthomepageComponent } from './requesthomepage/requesthomepage.comp
 import { ServiceCatalogueComponent } from './service-catalogue/service-catalogue.component';
 import { OveralldashboardComponent } from './overalldashboard/overalldashboard.component';
 import { ProcurementlayoutComponent } from './layouts/procurementlayout/procurementlayout.component';
+import { ServiceCatalogueReqComponent } from './service-catalogue-req/service-catalogue-req.component';
 
 
 const routes: Routes =[
@@ -130,6 +131,10 @@ const routes: Routes =[
   {
     path: 'service-catalogue',
     component: ServiceCatalogueComponent
+  },
+  {
+    path: 'service-catalogue-req',
+    component: ServiceCatalogueReqComponent
   }
 
 

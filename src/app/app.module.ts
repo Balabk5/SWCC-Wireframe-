@@ -49,7 +49,8 @@ import { FinanceComponentModule } from './finance-component/finance-component.mo
 import { ProcurementrequestlistComponent } from './procurementrequestlist/procurementrequestlist.component';
 import { ProcurementcreatereqComponent } from './procurementcreatereq/procurementcreatereq.component';
 import { ProcurementComponentModule } from './procurement-component/procurement-component.module';
-import { Ng2SearchPipeModule } from 'ng2-search-filter'
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { ServiceCatalogueReqComponent } from './service-catalogue-req/service-catalogue-req.component'
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -107,6 +108,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter'
       NavbaroverallDBComponent,
       ProcurementrequestlistComponent,
       ProcurementcreatereqComponent,
+      ServiceCatalogueReqComponent,
 
   ],
   providers: [],
