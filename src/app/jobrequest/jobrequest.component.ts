@@ -37,7 +37,7 @@ export class JobrequestComponent implements OnInit {
         if (result.isConfirmed) {
           swalWithBootstrapButtons.fire(
             "Request Raised!",
-            "Request has been sent to IT Team",
+            "Request has been sent to HR Team",
             "success"
           );
           this.searchValue = null;
