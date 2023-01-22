@@ -12,7 +12,7 @@ export class ProcurementrequestlistComponent implements OnInit {
   constructor(private apiservice:ApiService) { }
 
   ngOnInit(): void {
-    this.data = this.apiservice.getProcurementData()
+    this.data = this.apiservice.getProcurementReqData()
     console.log(this.data);
   }
 

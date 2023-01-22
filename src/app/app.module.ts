@@ -49,7 +49,7 @@ import { FinanceComponentModule } from './finance-component/finance-component.mo
 import { ProcurementrequestlistComponent } from './procurementrequestlist/procurementrequestlist.component';
 import { ProcurementcreatereqComponent } from './procurementcreatereq/procurementcreatereq.component';
 import { ProcurementComponentModule } from './procurement-component/procurement-component.module';
-
+import { Ng2SearchPipeModule } from 'ng2-search-filter'
 @NgModule({
   imports: [
     BrowserAnimationsModule,
@@ -68,7 +68,8 @@ import { ProcurementComponentModule } from './procurement-component/procurement-
     MatFormFieldModule,
     MatDatepickerModule,
     MatTableModule,
-    MatSortModule
+    MatSortModule,
+    Ng2SearchPipeModule
 
   ],
   declarations: [
