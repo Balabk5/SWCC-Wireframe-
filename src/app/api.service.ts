@@ -31,4 +31,10 @@ export class ApiService {
   getItRequestData(){
     return this.itdata["data"]
   }
+  getFinanceReqData() {
+    return this.data["finance-req"]
+  }
+  getProcurementReqData() {
+    return this.data["procurement-req"]
+  }
 }

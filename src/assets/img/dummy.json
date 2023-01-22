@@ -215,6 +215,64 @@
             "status": "In Progress"
         }
     ],
+    "finance-req": [
+        {
+            "employee id" : 3190,
+"Designation" : "Procurement manager",
+"invoice no" :23456,
+"invoice date" :"10/01/2023",
+"amount" :"1500 SAR",
+"Supplier name" : "Pet bottle",
+"Service Code" :"SSA-Finance-3001-1",
+"Service" : "Receipt, management, matching and posting of supplier invoices, debit notes and credit notes.", 
+"Status": "Approved"
+        },
+        {
+            "employee id" : 1128,
+"Designation" : " Manager - Project implementation",
+"invoice no" :23464,
+"invoice date" :"12/01/2023",
+"amount" :"18000 SAR",
+"Supplier name" : "Watronics",
+"Service Code" :"SSA-Finance-3001-1",
+"Service" : " Capturingpetty cash receipt and payment transactions, petty cash account reconciliation and petty cash replenishment.", 
+"Status": "Approved"
+        },
+        {
+            "employee id" : 4111 ,
+"Designation" : "Admin",
+"invoice no" :23584,
+"invoice date" :"12/01/2023",
+"amount" :"500 SAR",
+"Supplier name" : "Amdad Workshop",
+"Service Code" :"SSA-Finance-3001-1",
+"Service" : "Periodic processing in asset accounting that posts planned depreciation to all relevant assets, in order to reduce the book value of fixed assets",
+"Status": "In progress"
+        },
+        {
+            "employee id" : 4235,
+"Designation" : "Manager - Operations",
+"invoice no" :24021,
+"invoice date" :"15/01/2023",
+"amount" :"800 SAR",
+"Supplier name" : "Al Kamal services",
+"Service Code" :"SSA-Finance-3001-1",
+"Service": "Periodic processing in asset accounting that posts planned depreciation to all relevant assets, in order to reduce the book value of fixed assets",
+"Status": "Opened"
+        },
+        {
+            "employee id" : 4235,
+            "Designation" : "Manager - Operations",
+            "invoice no" :24081,
+            "invoice date" :"17/01/2023",
+            "amount" :"5000 SAR",
+            "Supplier name" : "CHEMSBRO",
+            "Service Code" :"SSA-Finance-3001-1",
+            "Service" : "Receipt, management, matching and posting of supplier invoices, debit notes and credit notes.",
+            "Status": "On Hold"
+        }
+
+    ],
     "it": [
         {
             "id": 1,
@@ -424,6 +482,78 @@
             "sla-duration": "",
             "service-charge": "",
             "status": "Completed"
+        }
+    ],
+    "procurement-req": [
+        {
+            "id": 1,
+            "department": "Transport Request",
+            
+            "requestor-type": "SWCC",
+            "requesting-type": "Urgent",
+            "from-loc":"Riyadh",
+            "to-loc":"jeddah",
+            "service-charge": "3000",
+            "no-of-days":"5",
+            "req-date":"11/12/2022",
+            "po-no":"143",
+            "status": "Completed"
+        },
+        {
+            "id": 2,
+            "department": "Transport Request",
+            
+            "requestor-type": "Supplier",
+            "requesting-type": "standard",
+            "from-loc":"Riyadh",
+            "to-loc":"mecca",
+            "service-charge": "1000",
+            "no-of-days":"90",
+            "req-date":"11/5/2022",
+            "po-no":"176",
+            "status": "Rejected"
+        },
+        {
+            "id": 3,
+            "department": "Transport Request",
+            
+            "requestor-type": "Supplier",
+            "requesting-type": "standard",
+            "from-loc":"jeddah",
+            "to-loc":"mecca",
+            "service-charge": "1000",
+            "no-of-days":"90",
+            "req-date":"3/12/2022",
+            "po-no":"1978",
+            "status": "Onhold"
+        },
+        {
+            "id": 4,
+            "department": "Transport Request",
+            
+            "requestor-type": "SWCC",
+            "requesting-type": "Urgent",
+            "from-loc":"mecca",
+            "to-loc":"jeddah",
+            "service-charge": "3000",
+            "no-of-days":"5",
+            "req-date":"1/1/2023",
+            "po-no":"123",
+            "status": "Completed"
+        },
+        {
+            "id": 5,
+            "department": "Transport Request",
+            
+            "requestor-type": "supplier",
+            "requesting-type": "Urgent",
+            "from-loc":"Riyadh",
+            "to-loc":"jeddah",
+            "service-charge": "3000",
+            "no-of-days":"5",
+            "req-date":"21/2/2023",
+            "po-no":"12347",
+            "status": "In Progress"
         }
     ]
 }

@@ -32,7 +32,7 @@
                     </th>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let hero of heroes">
+                    <tr *ngFor="let hero of heroes | filter:searchText">
                         <td>{{hero.serviceGroup}}</td>
                         <td>{{hero.service}}</td>
                         <td>{{hero.serviceCode}}</td>

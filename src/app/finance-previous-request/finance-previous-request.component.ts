@@ -10,7 +10,7 @@ export class FinancePreviousRequestComponent implements OnInit {
   constructor(private apiservice:ApiService) { }
 
   ngOnInit(): void {
-    this.data = this.apiservice.getFinanceData()
+    this.data = this.apiservice.getFinanceReqData()
     console.log(this.data)
   }
 
